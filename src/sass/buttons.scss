@@ -1,0 +1,103 @@
+/* Mixins */
+@mixin gradientBg($startColor, $endColor) {
+  background: $startColor;
+  background: -moz-linear-gradient(left,  $startColor 0%, $endColor 80%,$endColor 100%);
+  background: -webkit-linear-gradient(left,  $startColor 0%, $endColor 80%,$endColor 100%);
+  background: linear-gradient(to right,  $startColor 0%, $endColor 80%,$endColor 100%);
+}
+@mixin gradientBorder($startColor, $endColor) {
+  background: $startColor;
+}
+
+/* bg shortcodes */
+.bg-gradient1 span,
+.bg-gradient1:before {
+  @include gradientBg($color-brand, $color-brand-alt);
+}
+.bg-gradient2 span,
+.bg-gradient2:before {
+  @include gradientBorder($color-brand, $color-brand-alt);
+  color: $color-brand;
+}
+.bg-gradient3 span,
+.bg-gradient3:before {
+  @include gradientBg(#fa6c9f, #ffe140);
+}
+
+.bg1 span,
+.bg1:before {
+  background: $color-brand;
+}
+
+.bg2 span,
+.bg2:before {
+  background: $color-brand-alt;
+}
+/* fancy Button */
+a.fancy-button {
+  display: inline-block;
+  margin: 30px;
+  font-family: $base-font-family;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  
+  span {
+      display: inline-block;
+      padding: 18px 30px;
+      position: relative;
+      z-index: 2;
+      will-change: transform, filter;
+      transform-style: preserve-3d;
+      transition: all 0.2s ease-out;
+  }
+  &:focus,
+  &:active {
+      color: #ffffff;
+  }
+  &:hover {
+      color: #ffffff;
+      
+      span {
+          filter: brightness(1.05) contrast(1.05);
+          transform: scale(0.97);
+      }
+      &:before {
+          bottom: 0;
+          filter: blur(10px) brightness(1);
+      }
+  }
+  &.pop-onhover {
+      
+      &:before {
+          opacity: 0;
+          bottom: 10px;
+      }
+      &:hover {
+          
+          &:before {
+              bottom: -7px;
+              opacity: 1;
+              filter: blur(20px);
+          }
+          span {
+              transform: scale(1.04);
+          }
+          &:active {
+              
+              span {
+                  filter: brightness(1) contrast(1);
+                  transform: scale(1);
+                  transition: all 0.15s ease-out;
+              }
+              &:before {
+                  bottom: 0;
+                  filter: blur(10px) brightness(0.95);
+                  transition: all 0.2s ease-out;
+              }
+          }
+      }
+  }
+}

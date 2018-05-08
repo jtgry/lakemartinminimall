@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="home-banner" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/lake.jpg);">
+  <div class="vertical">
+    <div class="home-banner-content">
+      <div class="container">
+        <img src="/images/lakemartin.svg" class="home-banner-logo" alt="{{ .Title }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
+{{ end }}

@@ -1,0 +1,58 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "Lake Martin Mini Mall"
+
+enableRobotsTXT = true
+disableAliases = true
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+
+# Main Menu
+
+# About Section
+[[menu.main]]
+  name = "Visit Us"
+  weight = 1
+  url = "/visit-us/"
+
+[[menu.main]]
+  name = "Big Green Egg"
+  weight = 2
+  url = "/big-green-egg/"
+
+[[menu.main]]
+  name = "Furniture"
+  weight = 3
+  url = "/furniture/"
+
+[[menu.main]]
+  name = "Outdoor"
+  weight = 4
+  url = "/outdoor/"
+
+[[menu.main]]
+  name = "Decor"
+  weight = 5
+  url = "/decor/"
