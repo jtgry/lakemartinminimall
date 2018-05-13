@@ -2,7 +2,7 @@
 title: "Furniture"
 draft: false
 image: "images/lake.jpg"
-icon: "images/green-egg.svg"
+icon: "images/chairs.svg"
 blocks:
   - template: "block-image"
     heading: "Big Green Egg"

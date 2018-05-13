@@ -2,7 +2,7 @@
 title: "Outdoor"
 draft: false
 image: "images/lake.jpg"
-icon: "images/green-egg.svg"
+icon: "images/canoe.svg"
 blocks:
   - template: "block-image"
     heading: "Big Green Egg"

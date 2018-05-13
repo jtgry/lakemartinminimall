@@ -43,7 +43,7 @@ nav{
     }
     @include span(1/8);
     &:hover {
-      background: darken($color-brand-alt, 10%);
+      background: lighten($color-brand-alt, 10%);
       text-decoration: none;
     }
   }

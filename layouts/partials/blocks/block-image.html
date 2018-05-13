@@ -1,8 +1,17 @@
 <section class="block-section">
-  {{- if and .Params.image -}}
+  {{- if .Params.image -}}
   <div alt="{{ .Params.heading }}" class="block-image {{ .Params.image_alignment }}" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images-resized/medium/{{ .Params.image }});">
-  </div>
+  {{ else }}
+  <div alt="{{ .Params.heading }}" class="block-image"></div>
   {{ end }}
+  {{- if .Params.icon }}
+    <div class="vertical">
+      <div class="container" >
+        <img src="/{{ .Params.icon }}"/>
+      </div>
+    </div>
+  {{ end }}
+  </div>
   <div class="block-content">
     <div class="block-text vertical">
       <div class="container">
