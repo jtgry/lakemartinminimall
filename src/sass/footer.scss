@@ -1,14 +1,22 @@
 footer{
-  background: $color-white;
+  background: $color-black;
   height: 20em;
   width: 100%;
   padding: $spacing-unit / 2 0;
   display: table;
   text-align: center;
-
+  
   .footer-logo{
     height: 5em;
     width: auto;
-    
+    margin: $spacing-unit 0;
+  }
+  address{
+    font-family: $base-font-family;
+    color: $color-white;
+    text-transform: uppercase;
+    a, a:visited{
+      color: $color-white;
+    }
   }
 }

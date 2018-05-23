@@ -10,6 +10,7 @@ import tildeImporter from 'node-sass-tilde-importer'
 const $ = gulpLoadPlugins()
 const browserSync = require('browser-sync').create()
 const imageResize = require('gulp-image-resize');
+const htmlmin = require('gulp-htmlmin');
 const isProduction = process.env.NODE_ENV === 'production'
 
 const onError = (err) => {
@@ -44,11 +45,11 @@ gulp.task('init-watch', () => {
 })
 
 gulp.task('build', () => {
-    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'images-resize-small', 'images-resize-medium', 'pub-delete'], 'hugo')
+    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'pub-delete'], ['images-resize-small', 'images-resize-medium', 'uploads-resize-small', 'uploads-resize-medium'], 'hugo')
 })
 
 gulp.task('build-preview', () => {
-    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'images-resize-small', 'images-resize-medium', 'pub-delete'], 'hugo-preview')
+    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'pub-delete'], ['images-resize-small', 'images-resize-medium', 'uploads-resize-small', 'uploads-resize-medium'], 'hugo-preview')
 })
 
 
@@ -143,29 +144,59 @@ gulp.task('images', () => {
     return gulp.src('src/images/**/*.{png,jpg,jpeg,gif,svg,webp,ico}')
         .pipe($.newer('static/images'))
         .pipe($.print())
-        .pipe($.imagemin())
         .pipe(gulp.dest('static/images'));
 });
+
 gulp.task('images-resize-small', () => {
     return gulp.src('static/images/**/*.{png,jpg,jpeg}')
-      .pipe($.newer('static/images-resized/small/images'))
-      .pipe($.print())
-      .pipe($.imageResize({
+        .pipe($.newer('static/images-resized/small/images'))
+        .pipe($.print())
+        .pipe($.imageResize({
         width : 500,
         upscale : false
-      }))
-      .pipe(gulp.dest('static/images-resized/small/images'));
-  });
-  gulp.task('images-resize-medium', () => {
-    return gulp.src('static/images/**/*.{png,jpg,jpeg}')
-        .pipe($.newer('static/images-resized/medium/images'))
+        }))
+        .pipe(gulp.dest('static/images-resized/small/images'));
+});
+
+gulp.task('images-resize-medium', () => {
+return gulp.src('static/images/**/*.{png,jpg,jpeg}')
+    .pipe($.newer('static/images-resized/medium/images'))
+    .pipe($.print())
+    .pipe($.imageResize({
+    width : 1000,
+    upscale : false
+    }))
+    .pipe(gulp.dest('static/images-resized/medium/images'));
+});
+
+gulp.task('uploads-resize-small', () => {
+    return gulp.src('static/uploads/**/*.{png,jpg,jpeg}')
+        .pipe($.newer('static/images-resized/small/uploads'))
+        .pipe($.print())
+        .pipe($.imageResize({
+        width : 500,
+        upscale : false
+        }))
+        .pipe(gulp.dest('static/images-resized/small/uploads'));
+    });
+    
+gulp.task('uploads-resize-medium', () => {
+    return gulp.src('static/uploads/**/*.{png,jpg,jpeg}')
+        .pipe($.newer('static/images-resized/medium/uploads'))
         .pipe($.print())
         .pipe($.imageResize({
         width : 1000,
         upscale : false
         }))
-        .pipe(gulp.dest('static/images-resized/medium/images'));
-    });
+        .pipe(gulp.dest('static/images-resized/medium/uploads'));
+});
+
+gulp.task('minify', function() {
+    return gulp.src('public/*.html')
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('public'));
+});
+
 gulp.task('cms-delete', () => {
     return del(['static/admin'], { dot: true })
 })

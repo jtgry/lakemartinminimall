@@ -11,11 +11,9 @@ var feed = new Instafeed({
 feed.run();
 
 $(document).ready(function () {
-
+  $("#cover").addClass("fade-out");
   window.onload = function () { 
-    $("#cover").fadeOut(300);
     window.sr = ScrollReveal();
-    sr.reveal('.home-banner-content', {origin: 'bottom', scale: 1, duration: 1000});
     sr.reveal('.block-content', {origin: 'bottom', scale: 1, duration: 1000});
     sr.reveal('.block-title', {origin: 'bottom', scale: 1, duration: 1000}, 200);
     sr.reveal('.block-image', {origin: 'bottom', scale: 1, duration: 1500 }, 200);
