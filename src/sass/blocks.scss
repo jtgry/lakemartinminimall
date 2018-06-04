@@ -18,9 +18,9 @@
   @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
-    min-height: 30vw;
-    max-height: 30vw;
-    height: 30vw;
+    min-height: 50vw;
+    max-height: 50vw;
+    height: 50vw;
   }
   .container{
     text-align: center;
@@ -49,9 +49,9 @@
   @media (max-width: $tablet) {
     @include stack();
     display: table;
-    min-height: 30vw;
-    max-height: 30vw;
-    height: 30vw;
+    min-height: 50vw;
+    max-height: 50vw;
+    height: 50vw;
     padding: $spacing-unit / 2 0 $spacing-unit / 4;
     
   }
@@ -63,6 +63,9 @@
     h2{
       font-size: 3rem;
       margin-bottom: $spacing-unit / 2;
+      @media (max-width: $tablet) {
+        font-size: 2rem;
+      }
     }
     hr{
       background: $color-brand;
@@ -101,6 +104,9 @@
       font-family: $header-font-family;
       margin-bottom: $spacing-unit / 2;
       color: $color-white;
+      @media (max-width: $tablet) {
+        font-size: 3rem;
+      }
     }
     hr{
       background: $color-white;

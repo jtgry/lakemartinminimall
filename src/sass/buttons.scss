@@ -48,13 +48,16 @@ a.fancy-button {
   
   span {
       display: inline-block;
-      padding: 18px 30px;
+      padding: 1em 2em;
       position: relative;
       z-index: 2;
       will-change: transform, filter;
       transform-style: preserve-3d;
       transition: all 0.2s ease-out;
       box-shadow: $box-shadow;
+      @media (max-width: $tablet) {
+        padding: .5em 1em;
+      }
   }
   &:focus,
   &:active {
