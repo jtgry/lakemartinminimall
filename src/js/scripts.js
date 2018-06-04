@@ -15,6 +15,9 @@ $(document).ready(function () {
   window.onload = function () { 
     window.sr = ScrollReveal();
     sr.reveal('.block-content', {origin: 'bottom', scale: 1, duration: 1000});
+    sr.reveal('.block-feature', {origin: 'bottom', scale: 1, duration: 1000});
+    sr.reveal('.block-feature-alt', {origin: 'bottom', scale: 1, duration: 1000});
+    sr.reveal('.block-feature-item', {origin: 'bottom', scale: 1, duration: 1000 }, 200);
     sr.reveal('.block-title', {origin: 'bottom', scale: 1, duration: 1000}, 200);
     sr.reveal('.block-image', {origin: 'bottom', scale: 1, duration: 1500 }, 200);
     sr.reveal('.block-instagram', {origin: 'bottom', scale: 1, duration: 1000 }, 200);

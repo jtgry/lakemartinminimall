@@ -1,7 +1,7 @@
 {{ if isset .Params "image" }}
-<header class="page-header" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/{{ .Params.image }});">
+<header class="page-header fade-in" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/{{ .Params.image }});">
 {{ else }}
-<header class="page-header" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/lake.jpg);">
+<header class="page-header fade-in" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/lake.jpg);">
 {{ end }}
   <div class="vertical">
     <div class="container">

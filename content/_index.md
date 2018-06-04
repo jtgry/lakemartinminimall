@@ -3,6 +3,29 @@ title: "Home"
 draft: false
 image: "images/lake.jpg"
 blocks:
+  - template: "block-feature-items"
+    heading: "Latest From Our Store"
+    content: 
+    image: 
+    image_alignment: 
+    button_text:
+    button_url: 
+    items:
+      - name: Green Egg
+        content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”."
+        image: "images/lake.jpg"
+        button_text: "Learn More"
+        button_url: "/big-green-egg"
+      - name: Adirondack Chairs
+        content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”."
+        image: "images/chairs.jpg"
+        button_text: "Learn More"
+        button_url: "/big-green-egg"
+      - name: Founatin
+        content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”."
+        image: "images/lake.jpg"
+        button_text: "Learn More"
+        button_url: "/big-green-egg"
   - template: "block-image"
     heading: "Big Green Egg"
     content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”. Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known for producing amazing culinary results for the novice and expert alike for over thirty years!"
