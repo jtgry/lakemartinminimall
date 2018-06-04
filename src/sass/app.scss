@@ -100,7 +100,7 @@ $base-line-height: 1.7;
 
 $alt-font-family: 'northwellregular', serif;
 
-$header-font-family: 'northwellregular', serif;
+$header-font-family: 'lora', serif;
 
 $spacing-unit:     4rem;
 
@@ -114,7 +114,8 @@ $color-grey:       rgba(200,200,200,1);
 $color-grey-light: lighten($color-grey, 10%);
 $color-grey-dark:  darken($color-grey, 20%);
 
-$box-shadow:       0px 0px 15px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.05);
+$box-shadow: 0px 0px 15px rgba(0,0,0,0.15), 0px 0px 4px rgba(0,0,0,0.1);
+$box-shadow-alt: 11px 10px 40px rgba(0,0,0,.2);
 
 $height-bottom: 100;
 $height-middle: 200;

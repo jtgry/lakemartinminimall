@@ -4,22 +4,22 @@
 
  .fade-in{
   @include fadeIn(
-    $delay: 1.4s
+    $delay: 1s
   )
 }
 .fade-in-slow{
   @include fadeIn(
-    $delay: 1.8s
+    $delay: 1.2s
   );
 }
 .fade-in-slower{
   @include fadeIn(
-    $delay: 2s
+    $delay: 1.4s
   );
 }
 .fade-in-slowest{
   @include fadeIn(
-    $delay: 2.2s
+    $delay: 2s
   );
 }
 

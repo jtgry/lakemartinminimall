@@ -1,9 +1,40 @@
 {{ define "main" }}
-<section class="home-banner" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/lake.jpg);">
+<section class="home-banner fade-in" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/lake.jpg);">
   <div class="vertical">
-    <div class="home-banner-content fade-in-slow">
+    <div class="home-banner-content fade-in-slowest">
       <div class="container">
         <img src="/images/lakemartin.svg" class="home-banner-logo" alt="{{ .Title }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="page">
+<section class="home-intro fade-in-up-slowest">
+  <div class="vertical">
+    <div class="container-wide">
+      <div class="home-intro-item">
+        <h3>Welcome</h3>
+        <p><i><a href="/">Discover Our Latest arrivals -></a></i></p>
+      </div>
+      <div class="home-intro-item">
+          <h3>Store Hours</h3>
+          <ul>
+            <li><b>Wed - Fri</b></li>
+            <li>10:00 AM - 5:00 PM</li>
+          </ul>
+          <ul>
+            <li><b>Saturday</b></li>
+            <li>10:00 AM - 4:00 PM</li>
+          </ul>
+          <ul>
+            <li><b>Sunday</b></li>
+            <li>1:00 PM - 5:00 PM</li>
+          </ul>
+
+      </div>
+      <div class="home-intro-item">
+          <a href="#contact" class="fancy-button bg1"><span>Contact Us</span></a>
       </div>
     </div>
   </div>
@@ -14,4 +45,5 @@
 {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
 {{- end -}}
 {{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
+</article>
 {{ end }}

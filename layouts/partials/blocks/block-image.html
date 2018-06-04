@@ -1,6 +1,6 @@
 <section class="block-section">
   {{- if .Params.image -}}
-  <div alt="{{ .Params.heading }}" class="block-image {{ .Params.image_alignment }}" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images-resized/medium/{{ .Params.image }});">
+  <div alt="{{ .Params.heading }}" class="block-image {{ .Params.image_alignment }}" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/images-resized/medium/{{ .Params.image }});">
   {{ else }}
   <div alt="{{ .Params.heading }}" class="block-image">
   {{ end }}
@@ -17,6 +17,7 @@
       <div class="container">
           {{- with .Params.heading -}}
           <h2>{{ markdownify . }}</h2>
+          <hr />
           {{ end }}
           {{- with .Params.content -}}
           <p>{{ markdownify . }}</p>

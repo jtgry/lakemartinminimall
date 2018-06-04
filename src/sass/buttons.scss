@@ -27,11 +27,13 @@
 .bg1 span,
 .bg1:before {
   background: $color-brand;
+  border: .2em solid $color-white;
 }
 
 .bg2 span,
 .bg2:before {
-  background: $color-brand-alt;
+  background: $color-brand;
+  border: .2em solid $color-brand;
 }
 /* fancy Button */
 a.fancy-button {
@@ -52,6 +54,7 @@ a.fancy-button {
       will-change: transform, filter;
       transform-style: preserve-3d;
       transition: all 0.2s ease-out;
+      box-shadow: $box-shadow;
   }
   &:focus,
   &:active {

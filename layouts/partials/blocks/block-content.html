@@ -1,13 +1,20 @@
-<section class="block-text">
-  <div class="container">
-      {{- with .Params.heading -}}
-      <h2>{{ markdownify . }}</h2>
-      {{ end }}
-      {{- with .Params.content -}}
-      <p>{{ markdownify . }}</p>
-      {{- end -}}
-      {{- if and .Params.button_url .Params.button_text -}}
-      <a href="{{ .Params.button_url }}" class="fancy-button bg2"><span>{{ .Params.button_text }}</span></a>
-      {{ end }}
+<section class="block-feature-alt">
+  <div class="vertical">
+    <div class="block-feature-content">
+      <div class="block-text">
+        <div class="container">
+            {{- with .Params.heading -}}
+            <h2>{{ markdownify . }}</h2>
+            <hr />
+            {{ end }}
+            {{- with .Params.content -}}
+            <p>{{ markdownify . }}</p>
+            {{- end -}}
+            {{- if and .Params.button_url .Params.button_text -}}
+            <a href="{{ .Params.button_url }}" class="fancy-button bg2"><span>{{ .Params.button_text }}</span></a>
+            {{ end }}
+        </div>
+      </div>
+    </div>
   </div>
 </section>

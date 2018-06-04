@@ -1,9 +1,10 @@
+
 .block-image{
   display: table;
   width: 50%;
-  min-height: 40vw;
-  max-height: 40vw;
-  height: 40vw;
+  min-height: 30vw;
+  max-height: 30vw;
+  height: 30vw;
   background: $color-brand;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,12 +14,13 @@
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
+  box-shadow: $box-shadow-alt;
   @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
-    min-height: 60vw;
-    max-height: 60vw;
-    height: 60vw;
+    min-height: 30vw;
+    max-height: 30vw;
+    height: 30vw;
   }
   .container{
     text-align: center;
@@ -31,9 +33,9 @@
 .block-content{
   display: table;
   width: 50%;
-  min-height: 40vw;
-  max-height: 40vw;
-  height: 40vw;
+  min-height: 30vw;
+  max-height: 30vw;
+  height: 30vw;
   background-repeat: no-repeat;
   background-position: bottom right;
   background-attachment: scroll;
@@ -43,24 +45,30 @@
   background-size: 70%;
   overflow-y: hidden;
   @include span(1/2);
+  margin-bottom: $spacing-unit;
   @media (max-width: $tablet) {
     @include stack();
     display: table;
-    min-height: 60vw;
-    max-height: 60vw;
-    height: 60vw;
+    min-height: 30vw;
+    max-height: 30vw;
+    height: 30vw;
     padding: $spacing-unit / 2 0 $spacing-unit / 4;
     
   }
   .block-text{
     text-align: center;
+    p{
+      font-size: 1rem;
+    }
     h2{
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: $spacing-unit / 2;
     }
     hr{
-      background: $color-grey-light;
-      height: 1px; 
+      background: $color-brand;
+      margin-bottom: $spacing-unit / 1.5;
+      width: 5em;
+      height: .3em; 
     }
   }
 }
@@ -72,13 +80,14 @@
   height: 40vh;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
-  padding: $spacing-unit / 2 0;
+  box-shadow: $box-shadow-alt;
+  margin-bottom: $spacing-unit;
+  padding: $spacing-unit 0;
   .block-feature-content{
     display: table;
     width: 100%;
@@ -88,20 +97,42 @@
       color: $color-white;
     }
     h2{
-      font-size: 5rem;
+      font-size: 4rem;
       font-family: $header-font-family;
       margin-bottom: $spacing-unit / 2;
       color: $color-white;
     }
+    hr{
+      background: $color-white;
+      margin-bottom: $spacing-unit / 1.5;
+      width: 5em;
+      height: .3em; 
+    }
   }
 }
-
+.block-feature-alt{
+  width: 100%;
+  display: table;
+  min-height: 40vh;
+  max-height: 40vh;
+  height: 40vh;
+  box-shadow: $box-shadow-alt;
+  margin-bottom: $spacing-unit;
+  padding: $spacing-unit 0;
+  .block-feature-content{
+    hr{
+      background: $color-brand;
+      margin-bottom: $spacing-unit / 1.5;
+      width: 5em;
+      height: .3em; 
+    }
+  }
+}
 .block-text{
   width: 100%;
   text-align: center;
   h2{
-    font-size: 5rem;
-    font-family: $alt-font-family;
+    font-size: 3rem;
     margin-bottom: $spacing-unit / 2;
     color: $color-brand;
   }
