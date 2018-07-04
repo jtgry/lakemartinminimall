@@ -48,7 +48,7 @@ blocks:
     no need for painting or staining and can be cleaned with just soap and water.
     They are very long lasting and you will not have to worry about rotting, splintering,
     splitting, or termite damage! '
-  image: images/dockwithchairs.jpg
+  image: uploads/_DSC0080.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/furniture"
