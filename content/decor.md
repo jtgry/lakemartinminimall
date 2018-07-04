@@ -3,15 +3,6 @@ title: Apparel & Decor
 image: uploads/_DSC0341.jpg
 icon: images/green-egg.svg
 blocks:
-- template: ''
-  heading: Earthborn Pottery
-  content: Content Goes Here
-  image: uploads/DSC_0279.jpg
-  image_alignment: rigt
-  icon: ''
-  button_text: ''
-  button_url: ''
-  items: ''
 - template: block-image
   heading: 'Apparel '
   content: Widely acclaimed as the original American-designed ceramic cooker, the
