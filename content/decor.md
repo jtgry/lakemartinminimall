@@ -1,6 +1,6 @@
 ---
 title: Apparel & Decor
-image: uploads/DSC_0489.jpg
+image: uploads/_DSC0643.jpg
 icon: images/green-egg.svg
 blocks:
 - template: block-image
