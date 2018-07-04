@@ -22,7 +22,7 @@ blocks:
     Color highlights that emulate the textures and natural color variations of real
     wood Low maintenance – No need for painting or staining Clean up with soap and
     water No rotting, splintering, splitting and termite damage
-  image: images/dockwithchairs.jpg
+  image: uploads/_DSC0155.jpg
   image_alignment: right
   button_text: 
   button_url: 
