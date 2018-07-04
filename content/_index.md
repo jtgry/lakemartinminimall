@@ -9,7 +9,7 @@ blocks:
   image_alignment: 
   button_text: 
   button_url: 
-  blocks:
+  items:
   - template: block-item
     name: Green Egg
     content: Widely acclaimed as the original American-designed ceramic cooker, the
