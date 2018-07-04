@@ -25,6 +25,6 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/recreation.md
+- content/recreation1.md
 - content/_index.md
 - content/decor.md
