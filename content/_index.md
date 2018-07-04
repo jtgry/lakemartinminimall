@@ -26,7 +26,7 @@ blocks:
     content: 'We also offer a wide array of Apparel and Gift items! We have everything
       you need for your stay from lake gear to t-shirts! Plus, we offer many unique
       items from local artisans and makers. '
-    image: "/uploads/DSC_0287.jpg"
+    image: uploads/DSC_0334.jpg
     button_text: Learn More
     button_url: "/big-green-egg"
 - template: block-image
