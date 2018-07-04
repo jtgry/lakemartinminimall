@@ -7,29 +7,29 @@ title = "Lake Martin Mini Mall"
 delimiter = ""
 suffix = ""
 [[menu.main]]
-name = "Statuary & Pottery"
-url = "/statuary-pottery"
-weight = 2
-[[menu.main]]
 name = "Furniture"
 url = "/furniture/"
+weight = 4
+[[menu.main]]
+name = "Outdoor"
+url = "/outdoor"
 weight = 3
 [[menu.main]]
 name = "Big Green Egg"
 url = "/big-green-egg/"
 weight = 2
 [[menu.main]]
-name = "Visit Us"
-url = "/visit-us/"
-weight = 1
+name = "Recreation"
+url = "/recreation/"
+weight = 5
 [[menu.main]]
 name = "Decor"
 url = "/decor/"
-weight = 5
+weight = 6
 [[menu.main]]
-name = "Outdoor"
-url = "/outdoor/"
-weight = 4
+name = "Visit Us"
+url = "/visit-us/"
+weight = 1
 [outputFormats.HEADERS]
 baseName = "_headers"
 isPlainText = true
