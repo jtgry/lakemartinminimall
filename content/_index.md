@@ -30,14 +30,12 @@ blocks:
     button_text: Learn More
     button_url: "/big-green-egg"
 - template: block-image
-  heading: Big Green Egg
-  content: Widely acclaimed as the original American-designed ceramic cooker, the
-    Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
-    for producing amazing culinary results for the novice and expert alike for over
-    thirty years!
+  heading: 'Welcome! '
+  content: |-
+    Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin Mini Mall is conveniently located on Hwy 63, just north of Eclectic, AL.  Although we are located in the Lake Martin area, we can ship anywhere in the U.S.  We offer a wide selection of concrete pottery; including water fountains, statuary, planters, and more! Feel free to browse through our online selections, but if you don't see what you are looking for, just give us a call! We would love to hear from you!
+    We also have an indoor mall full of furniture, clothing, decor and more….as well as being home to the Big Green Egg! Stop by and pay us a visit.  We’d love to meet you!
   icon: images/green-egg.svg
-  image: images/lake.jpg
+  image: uploads/DSC_0252.jpg
   image_alignment: left
   button_text: Learn More
   button_url: "/big-green-egg"
