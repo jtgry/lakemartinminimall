@@ -34,7 +34,8 @@ blocks:
 - heading: 'Home Decor '
   content: 'We have lots of home decor items to complete that perfect lake style in
     your home! Anything from vintage to new items, we are certain to have something
-    that will catch your eye! '
+    that will catch your eye! Some items we carry include wall decor, wind chimes,
+    driftwood, vintage items, home accents, and much more! '
   template: block-feature
   image: uploads/DSC_0489.jpg
   icon: ''
