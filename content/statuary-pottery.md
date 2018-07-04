@@ -1,6 +1,6 @@
 ---
 title: Statuary & Pottery
-image: uploads/DSC_0377.jpg
+image: uploads/DSC_0377-1.jpg
 icon: ''
 blocks:
 - template: block-image

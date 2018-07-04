@@ -50,8 +50,8 @@ blocks:
     appeal with stainless steel hardware. Adirondack Chairs are low maintenance -
     no need for painting or staining and can be cleaned with just soap and water.
     They are very long lasting and you will not have to worry about rotting, splintering,
-    splitting, or termite damage! '
-  image: uploads/_DSC0080.jpg
+    splitting, or termite damage! Plus, they are Jade approved! '
+  image: uploads/DSC_0400.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/furniture"
@@ -69,3 +69,4 @@ blocks:
 type: page
 
 ---
+Our Adirondack Chairs are perfect for your lake home! They are made with long lasting, wood-like grain patterns, including color highlights which emulate the natural textures and color variations of real wood. These chairs have a timeless appeal with stainless steel hardware. Adirondack Chairs are low maintenance - no need for painting or staining and can be cleaned with just soap and water. They are very long lasting and you will not have to worry about rotting, splintering, splitting, or termite damage!
