@@ -18,6 +18,7 @@ fields:
   template_types:
   - block-image
   - block-feature
+  - block-feature-items
 - name: type
   label: Type
   type: text
