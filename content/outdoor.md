@@ -1,40 +1,51 @@
 ---
-title: "Outdoor"
-draft: false
-image: "images/lake.jpg"
-icon: "images/canoe.svg"
+title: Statuary & Pottery
+image: uploads/DSC_0377.jpg
+icon: images/canoe.svg
 blocks:
-  - template: "block-image"
-    heading: "Big Green Egg"
-    content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”. Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known for producing amazing culinary results for the novice and expert alike for over thirty years!"
-    image: "images/lake.jpg"
-    image_alignment: "left"
-    button_text: "Learn More"
-    button_url: "/Shop"
-  - template: "block-image"
-    heading: "Big Green Egg"
-    content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”. Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known for producing amazing culinary results for the novice and expert alike for over thirty years!"
-    image: "images/lake.jpg"
-    image_alignment: "right"
-    button_text: "Learn More"
-    button_url: "/Shop"
-  - template: "block-feature"
-    heading: "Big Green Egg"
-    content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”. Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known for producing amazing culinary results for the novice and expert alike for over thirty years!"
-    image: "images/lake.jpg"
-    image_alignment: "right"
-    button_text: "Learn More"
-    button_url: "/Shop"
-  - template: "block-content"
-    heading: "Big Green Egg"
-    content: "Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”. Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known for producing amazing culinary results for the novice and expert alike for over thirty years!"
-    image: "images/lake.jpg"
-    image_alignment: "right"
-    button_text: "Learn More"
-    button_url: "/Shop"
+- template: block-image
+  heading: Fountains
+  content: Statuary, water fountains, and pottery provide more than just a decorative
+    piece for your home, garden or office. They are works of art and show psychological
+    features to all environments. These beautiful concrete designs create and add
+    sound to the most pleasant and relaxing places on earth.
+  image: images/lake.jpg
+  image_alignment: left
+  button_text: ''
+  button_url: ''
+- template: block-image
+  heading: Statuary
+  content: Our company has literally thousands of crafted custom concrete built fountains
+    and statuaries.  Statuary, water fountains, garden fountains, planters, pottery,
+    etc., are available in a large range of designs. Many of the larger pieces can
+    be sent to residential or commercial developments straight from the factories.  Our
+    fountains run off of standard wall current and are easy and convenient to put
+    in place.
+  image: images/lake.jpg
+  image_alignment: right
+  button_text: ''
+  button_url: ''
+- template: block-feature
+  heading: Big Green Egg
+  content: Widely acclaimed as the original American-designed ceramic cooker, the
+    Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
+    Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
+    for producing amazing culinary results for the novice and expert alike for over
+    thirty years!
+  image: images/lake.jpg
+  image_alignment: right
+  button_text: Learn More
+  button_url: "/Shop"
+- template: block-content
+  heading: Big Green Egg
+  content: Widely acclaimed as the original American-designed ceramic cooker, the
+    Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
+    Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
+    for producing amazing culinary results for the novice and expert alike for over
+    thirty years!
+  image: images/lake.jpg
+  image_alignment: right
+  button_text: Learn More
+  button_url: "/Shop"
+
 ---
-Widely acclaimed as the original American-designed ceramic cooker, the Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”. Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known for producing amazing culinary results for the novice and expert alike for over thirty years!
-
-The Big Green Egg stands alone as the most versatile barbecue or outdoor cooking product on the market, with more capabilities than all other conventional cookers combined. From pizza to ribs, or Thanksgiving dinner to desserts, the Big Green Egg will exceed all your expectations for culinary perfection! With five convenient sizes to choose from, there is a Big Green Egg to fit every lifestyle!
-
-To find out more about the Big Green Egg, visit there website at [www.biggreenegg.com](www.biggreenegg.com) or stop by and check it out in person in our mini mall.  We have all sizes in stock with a large variety of accessories including grilling spices and sauces.
