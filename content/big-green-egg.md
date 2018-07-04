@@ -1,6 +1,7 @@
 ---
 title: Big Green Egg
 image: uploads/_DSC0230.jpg
+icon: ''
 blocks:
 - template: block-image
   heading: Big Green Egg
@@ -27,7 +28,7 @@ blocks:
   button_url: 
 - template: block-feature
   heading: Big Green Egg
-  content: To find out more about the Big Green Egg, visit there website at www.biggreenegg.com
+  content: To find out more about the Big Green Egg, visit their website at www.biggreenegg.com
     or stop by and check it out in person in our mini mall.  We have all sizes in
     stock with a large variety of accessories including grilling spices and sauces.
   image: uploads/_DSC0556.jpg
