@@ -3,14 +3,6 @@ title: Apparel & Decor
 image: uploads/_DSC0341.jpg
 icon: images/green-egg.svg
 blocks:
-- heading: Earthborn Pottery
-  content: Content Goes Here
-  template: block-image
-  image: uploads/DSC_0281.jpg
-  image_alignment: left
-  icon: ''
-  button_text: ''
-  button_url: ''
 - template: block-image
   heading: 'Apparel '
   content: Widely acclaimed as the original American-designed ceramic cooker, the
@@ -31,6 +23,23 @@ blocks:
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
+- heading: Earthborn Pottery
+  content: Content Goes Here
+  template: block-image
+  image: uploads/DSC_0281.jpg
+  image_alignment: left
+  icon: ''
+  button_text: ''
+  button_url: ''
+- heading: 'Home Decor '
+  content: 'We have lots of home decor items to complete that perfect lake style in
+    your home! Anything from vintage to new items, we are certain to have something
+    that will catch your eye! '
+  template: block-feature
+  image: uploads/DSC_0489.jpg
+  icon: ''
+  button_text: ''
+  button_url: ''
 type: ''
 
 ---
