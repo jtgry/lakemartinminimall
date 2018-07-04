@@ -1,6 +1,6 @@
 ---
 title: Home
-image: uploads/_DSC0592.jpg
+image: uploads/_DSC0370.jpg
 blocks:
 - template: block-feature-items
   heading: Latest From Our Store
