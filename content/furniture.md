@@ -5,12 +5,13 @@ icon: images/chairs.svg
 blocks:
 - template: block-image
   heading: Composite Furniture
-  content: Nothing enhances the enjoyment of outdoor living quite like this beautiful
-    Tete-A-Tete set which is constructed by utilizing composite  wood that is molded
-    for deep grain beauty along with stainless steel fasteners.  This furniture has
-    a deep lasting finish and attractive natural colors that gives it a timeless appeal.
-    It was created by using multiple grain patterns for an authentic, natural look.
-  image: images/chairs.jpg
+  content: Nothing enhances the enjoyment of outdoor living quite like our beautiful
+    Adirondack Furniture, which is constructed by utilizing composite wood that is
+    molded for deep grain beauty along with stainless steel fasteners.  This furniture
+    has a deep lasting finish and attractive natural colors that gives it a timeless
+    appeal. It was created by using multiple grain patterns for an authentic, natural
+    look.
+  image: uploads/DSC_0400.jpg
   image_alignment: left
   button_text: 
   button_url: 
