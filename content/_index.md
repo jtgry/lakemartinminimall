@@ -19,7 +19,7 @@ blocks:
   - name: Adirondack Chairs
     content: Widely acclaimed as the original American-designed ceramic cooker, the
       Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    image: "/uploads/_DSC0050.jpg"
+    image: uploads/_DSC0050.jpg
     button_text: Learn More
     button_url: "/big-green-egg"
   - name: Apparel & Gift Items
