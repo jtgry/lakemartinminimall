@@ -41,11 +41,13 @@ blocks:
   button_url: "/big-green-egg"
 - template: block-image
   heading: Adirondack Chairs
-  content: Deep lasting, wood-like grain created by multiple grain patterns for authentic
-    natural beauty Natural colors with timeless appeal with stainless steel hardware
-    Color highlights that emulate the textures and natural color variations of real
-    wood Low maintenance – No need for painting or staining Clean up with soap and
-    water No rotting, splintering, splitting and termite damage
+  content: 'Our Adirondack Chairs are perfect for your lake home! They are made with
+    long lasting, wood-like grain patterns, including color highlights which emulate
+    the natural textures and color variations of real wood. These chairs have a timeless
+    appeal with stainless steel hardware. Adirondack Chairs are low maintenance -
+    no need for painting or staining and can be cleaned with just soap and water.
+    They are very long lasting and you will not have to worry about rotting, splintering,
+    splitting, or termite damage! '
   image: images/dockwithchairs.jpg
   image_alignment: right
   button_text: Learn More
