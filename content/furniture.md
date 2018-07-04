@@ -28,7 +28,7 @@ blocks:
   button_url: 
 - template: block-feature
   heading: 'Lake Living at it''s Best! '
-  content: 'Just imagine time spent on your porch or deck with this beautiful set! '
+  content: ''
   image: uploads/_DSC0062.jpg
   image_alignment: right
   button_text: Learn More
