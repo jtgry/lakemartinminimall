@@ -35,8 +35,14 @@
   background: $color-brand;
   border: .2em solid $color-brand;
 }
+button{
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+  }
 /* fancy Button */
-a.fancy-button {
+button.fancy-button,a.fancy-button {
   display: inline-block;
   margin: 30px;
   font-family: $base-font-family;
