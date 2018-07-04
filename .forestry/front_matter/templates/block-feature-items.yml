@@ -11,7 +11,7 @@ fields:
   name: content
   label: Content
 - type: blocks
-  name: blocks
-  label: Blocks
+  name: items
+  label: Items
   template_types:
   - block-item
