@@ -26,5 +26,5 @@ fields:
   default: ''
 pages:
 - content/outdoor.md
-- content/_index.md
 - content/decor.md
+- content/_index.md
