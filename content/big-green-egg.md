@@ -31,7 +31,7 @@ blocks:
   content: To find out more about the Big Green Egg, visit there website at www.biggreenegg.com
     or stop by and check it out in person in our mini mall.  We have all sizes in
     stock with a large variety of accessories including grilling spices and sauces.
-  image: images/lake.jpg
+  image: uploads/_DSC0543.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
