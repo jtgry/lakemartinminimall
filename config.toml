@@ -7,6 +7,10 @@ title = "Lake Martin Mini Mall"
 delimiter = ""
 suffix = ""
 [[menu.main]]
+name = "Decor"
+url = "/decor/"
+weight = 6
+[[menu.main]]
 name = "Furniture"
 url = "/furniture/"
 weight = 4
@@ -22,10 +26,6 @@ weight = 2
 name = "Recreation"
 url = "/recreation/"
 weight = 5
-[[menu.main]]
-name = "Decor"
-url = "/decor/"
-weight = 6
 [[menu.main]]
 name = "Visit Us"
 url = "/visit-us/"
