@@ -1,7 +1,7 @@
 ---
 title: Big Green Egg
 image: uploads/_DSC0230.jpg
-icon: images/green-egg.svg
+icon: ''
 blocks:
 - template: block-image
   heading: Big Green Egg
@@ -10,7 +10,7 @@ blocks:
     Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
     for producing amazing culinary results for the novice and expert alike for over
     thirty years!
-  image: 
+  image: uploads/DSC_0239.jpg
   image_alignment: left
   icon: images/green-egg.svg
   button_text: Learn More
@@ -22,7 +22,7 @@ blocks:
     cookers combined. From pizza to ribs, or Thanksgiving dinner to desserts, the
     Big Green Egg will exceed all your expectations for culinary perfection! With
     five convenient sizes to choose from, there is a Big Green Egg to fit every lifestyle!
-  image: images/lake.jpg
+  image: uploads/_DSC0540.jpg
   image_alignment: right
   button_text: 
   button_url: 
