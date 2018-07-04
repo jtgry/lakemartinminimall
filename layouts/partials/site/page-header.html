@@ -6,8 +6,8 @@
   <div class="vertical">
     <div class="container">
       <div class="page-header-content">
-          {{ if isset .Params "icon" }}
-          <img class="page-header-logo" src="/{{ .Params.icon }}">
+          {{ with .Params.icon }}
+          <img class="page-header-logo" src="/{{ . }}">
           {{ end }}
           <h1 class="page-title">{{ .Title }}</h1>
         </div>
