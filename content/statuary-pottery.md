@@ -1,7 +1,6 @@
 ---
 title: Outdoor
 image: uploads/DSC_0377-1.jpg
-icon: ''
 blocks:
 - template: block-image
   heading: Fountains

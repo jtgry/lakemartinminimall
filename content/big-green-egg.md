@@ -1,7 +1,6 @@
 ---
 title: Big Green Egg
 image: uploads/_DSC0230.jpg
-icon: ''
 blocks:
 - template: block-image
   heading: Big Green Egg

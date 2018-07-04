@@ -1,7 +1,6 @@
 ---
 title: Furniture
 image: uploads/_DSC0080.jpg
-icon: images/chairs.svg
 blocks:
 - template: block-image
   heading: Composite Furniture
