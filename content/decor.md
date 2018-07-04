@@ -3,6 +3,15 @@ title: Apparel & Decor
 image: uploads/_DSC0341.jpg
 icon: images/green-egg.svg
 blocks:
+- heading: 'Home Decor '
+  content: 'We have lots of home decor items to complete that perfect lake style in
+    your home! Anything from vintage to new items, we are certain to have something
+    that will catch your eye! '
+  template: block-feature
+  image: uploads/DSC_0489.jpg
+  icon: ''
+  button_text: ''
+  button_url: ''
 - heading: Earthborn Pottery
   content: Content Goes Here
   template: block-image
