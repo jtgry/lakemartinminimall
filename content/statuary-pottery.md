@@ -1,7 +1,7 @@
 ---
 title: Statuary & Pottery
 image: uploads/DSC_0377.jpg
-icon: images/canoe.svg
+icon: ''
 blocks:
 - template: block-image
   heading: Fountains
