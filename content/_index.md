@@ -19,13 +19,14 @@ blocks:
   - name: Adirondack Chairs
     content: Widely acclaimed as the original American-designed ceramic cooker, the
       Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    image: images/chairs.jpg
+    image: "/uploads/_DSC0050.jpg"
     button_text: Learn More
     button_url: "/big-green-egg"
-  - name: Founatin
-    content: Widely acclaimed as the original American-designed ceramic cooker, the
-      Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    image: images/lake.jpg
+  - name: Apparel & Gift Items
+    content: 'We also offer a wide array of Apparel and Gift items! We have everything
+      you need for your lake stay and offer many unique items from local artisans
+      and makers. '
+    image: "/uploads/DSC_0290.jpg"
     button_text: Learn More
     button_url: "/big-green-egg"
 - template: block-image
