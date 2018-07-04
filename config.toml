@@ -9,7 +9,7 @@ suffix = ""
 [[menu.main]]
 name = "Statuary & Pottery"
 url = "/statuary-pottery"
-weight = 1
+weight = 2
 [[menu.main]]
 name = "Furniture"
 url = "/furniture/"
