@@ -12,7 +12,7 @@ blocks:
     thirty years!
   image: uploads/_DSC0545.jpg
   image_alignment: left
-  icon: images/green-egg.svg
+  icon: ''
   button_text: Learn More
   button_url: "/Shop"
 - template: block-image
