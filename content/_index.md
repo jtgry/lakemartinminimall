@@ -10,19 +10,22 @@ blocks:
   button_text: 
   button_url: 
   items:
-  - name: Green Egg
+  - template: block-item
+    name: Green Egg
     content: Widely acclaimed as the original American-designed ceramic cooker, the
       Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
     image: uploads/_DSC0556.jpg
     button_text: Learn More
     button_url: "/big-green-egg"
-  - name: Adirondack Chairs
+  - template: block-item
+    name: Adirondack Chairs
     content: Widely acclaimed as the original American-designed ceramic cooker, the
       Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
     image: uploads/_DSC0050.jpg
     button_text: Learn More
     button_url: "/big-green-egg"
-  - name: Apparel & Gift Items
+  - template: block-item
+    name: Apparel & Gift Items
     content: 'We also offer a wide array of Apparel and Gift items! We have everything
       you need for your stay from lake gear to t-shirts! Plus, we offer many unique
       items from local artisans and makers. '
@@ -32,7 +35,7 @@ blocks:
 - template: block-image
   heading: 'Welcome! '
   content: |-
-    Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin Mini Mall is conveniently located on Hwy 63, just north of Eclectic, AL.  Although we are located in the Lake Martin area, we can ship anywhere in the U.S.  We offer a wide selection of concrete pottery; including water fountains, statuary, planters, and more! Feel free to browse through our online selections, but if you don't see what you are looking for, just give us a call! We would love to hear from you!
+    Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin Mini Mall is conveniently located on Hwy 63, just north of Eclectic, AL. Although we are located in the Lake Martin area, we can ship anywhere in the U.S. We offer a wide selection of concrete pottery; including water fountains, statuary, planters, and more! Feel free to browse through our online selections, but if you don't see what you are looking for, just give us a call! We would love to hear from you!
     We also have an indoor mall full of furniture, clothing, decor and more….as well as being home to the Big Green Egg! Stop by and pay us a visit.  We’d love to meet you!
   icon: ''
   image: uploads/DSC_0252.jpg

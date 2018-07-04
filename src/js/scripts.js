@@ -1,3 +1,27 @@
+function hasClass(ele,cls) {
+  return ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+}
+ 
+function addClass(ele,cls) {  
+  if (!hasClass(ele,cls)) ele.className += " "+cls;
+}
+ 
+function removeClass(ele,cls) {
+  if (hasClass(ele,cls)) {      
+    var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)'); 
+    ele.className=ele.className.replace(reg,' ');  
+  }
+}   
+
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
 var feed = new Instafeed({
   get: 'user',
   userId: '2923101612',
@@ -24,12 +48,23 @@ $(document).ready(function () {
     sr.reveal('.fancy-button', {origin: 'bottom', scale: 1, duration: 1000 }, 200);
 
     var menuButton = document.getElementById('navButton');
+    var mobileNav = document.getElementById('mobile-nav');
     menuButton.addEventListener('click', function (e) {
       menuButton.classList.toggle('is-active');
       e.preventDefault();
-    });
-    $('.nav-button').click(function() {
-      $(".mobile-nav").fadeToggle(500);
+      
+      if (hasClass(mobileNav, 'load')) {
+        removeClass(mobileNav, 'load');
+        addClass(mobileNav, 'exit');
+        sleep(200).then(() => {
+          addClass(mobileNav, 'hidden');
+        })
+        
+      } else {
+        removeClass(mobileNav, 'exit');
+        removeClass(mobileNav, 'hidden');
+        addClass(mobileNav, 'load');
+      }
     });
   }
   
