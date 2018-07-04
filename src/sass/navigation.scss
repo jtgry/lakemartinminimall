@@ -128,12 +128,18 @@ a.nav-button {
 .mobile-nav{
   width: 100%;
   height: 100%;
-  z-index: 1500;
+  z-index: -3;
   text-transform: uppercase;
   text-align: center;
-  display: none;
   background: $color-white;
   position: fixed;
+  display: none;
+  opacity: 0;
+
+  &.load{
+    z-index: $height-high;
+  }
+  
 }
 .mobile-nav-items{
   width: 100vw;
