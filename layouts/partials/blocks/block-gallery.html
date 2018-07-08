@@ -1,0 +1,27 @@
+<section class="block-feature-alt">
+    <div class="vertical">
+      <div class="block-feature-content">
+        <div class="block-text">
+          <div class="container">
+            {{- with .Params.heading -}}
+            <h2>{{ markdownify . }}</h2>
+            <hr />
+            {{ end }}
+            {{- with .Params.content -}}
+            <p>{{ markdownify . }}</p>
+            {{- end -}}
+
+          </div>
+          </div>
+        <div class="wrapper">
+          {{- if .Params.items -}}
+            {{ range .Params.items }}
+              <div class="block-gallery-item">
+                <img src="/{{ .image }}" alt="{{ .name }}">
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>

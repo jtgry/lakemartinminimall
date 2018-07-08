@@ -127,6 +127,7 @@
   text-align: center;
   @media (max-width: $tablet) {
     @include stack();
+    box-shadow: none;
     
   }
   p{
@@ -169,6 +170,17 @@
     margin-bottom: $spacing-unit / 2;
     color: $color-brand;
   }
+}
+
+.block-gallery-item{
+  img{
+    height: 20vh;
+    width: auto;
+    box-shadow: $box-shadow;
+    @include column(1/4, $cycle: 4);
+    margin-bottom: $spacing-unit;
+  }
+
 }
 .instafeed{
   display: inline-block;
