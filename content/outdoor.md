@@ -38,8 +38,15 @@ blocks:
     we have the perfect piece to fit your needs!
   image: uploads/_DSC0504.jpg
 - template: block-feature
-  heading: Stone
-  content: cool stuff
+  heading: Outdoor Kitchens
+  content: Lake Martin Mini Mall is your local distributor for Lynx Outdoor Kitchens.
+    Lynx’s complete line of outdoor kitchen products combines advanced technologies
+    and refined features so that you can use to design your own unique outdoor kitchen!
+    Lynx has been the model of engineering excellence for more than 30 years. These
+    products are superior to anything else available because they perform better,
+    work stronger, are easier to clean, and more user friendly than anything else
+    available on the market!  Contact us or stop by and let us help you design the
+    perfect outdoor kitchen for your home!
   image: uploads/DSC_0471.jpg
 type: ''
 
