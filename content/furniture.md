@@ -30,7 +30,7 @@ blocks:
   content: ''
   image: uploads/_DSC0062.jpg
   image_alignment: right
-  button_text: Learn More
-  button_url: "/Shop"
+  button_text: ''
+  button_url: ''
 
 ---
