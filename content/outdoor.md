@@ -9,7 +9,7 @@ blocks:
     piece for your home, garden or office. They are works of art and show psychological
     features to all environments. These beautiful concrete designs create and add
     sound to the most pleasant and relaxing places on earth.
-  image: images/lake.jpg
+  image: uploads/_DSC0528.jpg
   image_alignment: left
   button_text: ''
   button_url: ''
@@ -47,5 +47,6 @@ blocks:
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
+type: ''
 
 ---
