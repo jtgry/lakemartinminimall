@@ -21,7 +21,7 @@ blocks:
     be sent to residential or commercial developments straight from the factories.  Our
     fountains run off of standard wall current and are easy and convenient to put
     in place.
-  image: images/lake.jpg
+  image: uploads/_DSC0504.jpg
   image_alignment: right
   button_text: ''
   button_url: ''
