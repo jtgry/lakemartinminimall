@@ -41,7 +41,7 @@ blocks:
     work stronger, are easier to clean, and more user friendly than anything else
     available on the market!  Contact us or stop by and let us help you design the
     perfect outdoor kitchen for your home!
-  image: uploads/DSC_0471.jpg
+  image: uploads/LMMM3.jpg
 type: ''
 
 ---
