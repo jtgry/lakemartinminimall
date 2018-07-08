@@ -32,4 +32,3 @@ blocks:
     button_text: "Learn More"
     button_url: "/Shop"
 ---
-## Subscribe to our mailing list
