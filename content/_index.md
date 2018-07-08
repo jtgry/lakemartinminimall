@@ -65,7 +65,7 @@ blocks:
     Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
     for producing amazing culinary results for the novice and expert alike for over
     thirty years!
-  image: images/lake.jpg
+  image: uploads/_DSC0241.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/outdoor"
