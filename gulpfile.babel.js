@@ -45,11 +45,11 @@ gulp.task('init-watch', () => {
 })
 
 gulp.task('build', () => {
-    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'pub-delete'], ['images-resize-small', 'images-resize-medium', 'uploads-resize-small', 'uploads-resize-medium'], 'hugo')
+    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'pub-delete'], 'hugo')
 })
 
 gulp.task('build-preview', () => {
-    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'pub-delete'], ['images-resize-small', 'images-resize-medium', 'uploads-resize-small', 'uploads-resize-medium'], 'hugo-preview')
+    runSequence(['import-sass', 'sass', 'js', 'fonts', 'images', 'pub-delete'], 'hugo-preview')
 })
 
 

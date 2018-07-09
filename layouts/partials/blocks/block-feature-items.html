@@ -15,8 +15,9 @@
         <div class="wrapper">
           {{- if .Params.items -}}
             {{ range .Params.items }}
+            {{ $image := (resources.Get .image).Fill "600x500" }}
               <div class="block-feature-item">
-                <img src="/{{ .image }}" alt="{{ .name }}">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .name }}">
                 <h3>{{ .name }}</h3>
                 {{ with .content }}
                 <div class="container">

@@ -3,6 +3,9 @@ disableAliases = true
 enableRobotsTXT = true
 languageCode = "en-gb"
 title = "Lake Martin Mini Mall"
+
+assetDir = "static"
+quality = 90
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffix = ""

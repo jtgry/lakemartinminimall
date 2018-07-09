@@ -1,4 +1,5 @@
-<section class="block-feature" alt="{{ .Params.heading }}" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/{{ .Params.image }});">
+{{ $image := (resources.Get .Params.image).Fill "1500x1000" }}
+<section class="block-feature" alt="{{ .Params.heading }}" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ $image.RelPermalink }});">
     <div class="vertical">
       <div class="block-feature-content">
         <div class="block-text">
