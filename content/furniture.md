@@ -16,11 +16,12 @@ blocks:
   button_url: 
 - template: block-image
   heading: Adirondack Chairs
-  content: Deep lasting, wood-like grain created by multiple grain patterns for authentic
-    natural beauty Natural colors with timeless appeal with stainless steel hardware
-    Color highlights that emulate the textures and natural color variations of real
-    wood Low maintenance – No need for painting or staining Clean up with soap and
-    water No rotting, splintering, splitting and termite damage
+  content: 'Deep lasting, wood-like grain is created by multiple grain patterns giving
+    our furniture authentic natural beauty. The natural colors and stainless steel
+    hardware offer timeless appeal and lasting durability. Our chairs are extremely
+    low maintenance – no need for painting or staining! They can easily be cleaned
+    with soap and water. You will not have to worry about rotting, splintering, splitting
+    or termite damage ever again! '
   image: uploads/_DSC0155.jpg
   image_alignment: right
   button_text: 
@@ -30,7 +31,7 @@ blocks:
   content: ''
   image: uploads/_DSC0062.jpg
   image_alignment: right
-  button_text: Learn More
-  button_url: "/Shop"
+  button_text: ''
+  button_url: ''
 
 ---
