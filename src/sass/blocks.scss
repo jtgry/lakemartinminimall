@@ -139,8 +139,8 @@
     margin-bottom: $spacing-unit / 4;
   }
   img{
-    height: 100%;
-    width: auto;
+    min-width: 100%;
+    height: auto;
     margin-bottom: $spacing-unit / 2;
   }
 }
