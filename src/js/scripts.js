@@ -13,6 +13,18 @@ function removeClass(ele,cls) {
   }
 }   
 
+var feed = new Instafeed({
+  get: 'user',
+  userId: '2940092438',
+  clientId: 'ca64abfc40b7478493927944df0e41d4',
+  accessToken: '2940092438.1677ed0.d694dd0aaa4349bba06edea174258632',
+  template: '<a class="block-instagram" style="background-image: url({{image}});" href="{{link}}"></a>',
+  sortBy: 'most-recent',
+  limit: '8',
+  resolution: 'standard_resolution'
+});
+feed.run();
+
 window.onload = function () { 
   document.getElementById('page').className = "load";
   window.sr = ScrollReveal({
@@ -23,12 +35,12 @@ window.onload = function () {
   });
   sr.reveal('.block-content', {origin: 'bottom', delay: 2, duration: 800});
   sr.reveal('.block-image', {origin: 'bottom', duration: 600 });
-  sr.reveal('.block-feature', {origin: 'bottom', duration: 1000});
-  sr.reveal('.block-feature-alt', {origin: 'bottom', duration: 1000});
+  sr.reveal('.block-feature', {origin: 'bottom', duration: 600});
+  sr.reveal('.block-feature-alt', {origin: 'bottom', duration: 600});
   sr.reveal('.block-feature-item', {origin: 'bottom', duration: 600 }, 200);
-  sr.reveal('.block-title', {origin: 'bottom', duration: 1000}, 200);
-  sr.reveal('.block-instagram', {origin: 'bottom', duration: 1000 }, 200);
-  sr.reveal('.fancy-button', {origin: 'bottom', duration: 1000 }, 200);
+  sr.reveal('.block-title', {origin: 'bottom', duration: 600}, 200);
+  sr.reveal('.block-instagram', {origin: 'bottom', duration: 600 }, 200);
+  sr.reveal('.fancy-button', {origin: 'bottom', duration: 600 }, 200);
   sr.reveal('footer', {origin: 'bottom', duration: 600});
 
   var menuButton = document.getElementById('navButton');
@@ -52,6 +64,7 @@ window.onload = function () {
       addClass(mobileNav, 'load');
     }
   });
+
 }
   
 // grab an element
