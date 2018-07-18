@@ -33,5 +33,6 @@ blocks:
   image_alignment: right
   button_text: ''
   button_url: ''
+type: ''
 
 ---
