@@ -50,6 +50,3 @@ blocks:
 type: ''
 
 ---
-We are a year-round retailer that has over 330 ceramic and concrete flower pots to choose from.  We are proud of our deep commitment to provide a quality product at a competitive price. 
-
-With our experienced sales associate we can make your selections easier and more enjoyable. 
