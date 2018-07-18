@@ -33,8 +33,8 @@ blocks:
     with a large variety of accessories including grilling spices and sauces.
   image: uploads/_DSC0556.jpg
   image_alignment: right
-  button_text: Learn More
-  button_url: "/Shop"
+  button_text: Contact Us
+  button_url: "/contact"
 type: ''
 
 ---
