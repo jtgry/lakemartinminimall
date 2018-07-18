@@ -1,6 +1,6 @@
 ---
 title: Visit Us
-image: images/lake.jpg
+image: uploads/DSC_0252.jpg
 blocks:
 - template: block-image
   heading: Big Green Egg
@@ -35,5 +35,6 @@ blocks:
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
+type: ''
 
 ---
