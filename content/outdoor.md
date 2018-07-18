@@ -21,19 +21,10 @@ blocks:
   button_url: ''
 - template: block-image
   heading: Stone
-  content: "Whether you are creating a walkway or building your home, we are guaranteed
-    to have the stone to fit all of your landscaping needs! \n\nMoss Rock | A perfect
-    balance of nature and community, Moss rock is commonly used for constructing garden
-    walls, sidewalks and for pavers around pools. \n\nRiver Rounds | Whether you need
-    drainage products or landscaping solutions, our round rock products do the job
-    in style .For dry creek beds, many customers use River Rock, . \LWe also supply Drain
-    Rock and River Rock for garden borders and house edging.\n\nCottage Stack & Cottage
-    Corners |There is a certain irresistible charm about a stone house, and we carry
-    a great inventory to choose from to add to your masonry projects.  We carry a
-    variety of brown and gray stone to choose from.\n\nFlagstone | The Lake Martin
-    Mini Mall carries a large selection of flagstone for your building needs.  Our
-    exceptional inventory for paving slabs or walkways, patios, fences and roofing.
-    It may be used for memorials, headstones, facades and other constructions. \n"
+  content: 'Whether you are creating a walkway or building your home, we are guaranteed
+    to have the stone to fit all of your landscaping needs! We carry a wide variety
+    of rock including Moss Rock, River Rounds, Flagstone, Cottage Stack and Cottage
+    Corners. '
   image: uploads/_DSC0461.jpg
   image_alignment: right
   button_text: ''
