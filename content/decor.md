@@ -4,11 +4,9 @@ image: uploads/_DSC0643.jpg
 blocks:
 - template: block-image
   heading: 'Apparel '
-  content: Widely acclaimed as the original American-designed ceramic cooker, the
-    Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
-    for producing amazing culinary results for the novice and expert alike for over
-    thirty years!
+  content: |2-
+
+    Represent your favorite parts of life on Lake Martin! We carry a wide variety of shirts and hats to fit your style! Additionally, the Lake Martin carries seasonal clothing items to help make your vacationing an everyday experience!
   image: uploads/DSC_0334.jpg
   image_alignment: left
   button_text: Learn More
