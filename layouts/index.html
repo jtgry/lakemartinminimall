@@ -1,5 +1,6 @@
 {{ define "main" }}
-<section class="home-banner fade-in" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ .Params.image }});">
+{{ $image := (resources.Get .Params.image).Fill "2000x1168" }}
+<section class="home-banner fade-in" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ $image.RelPermalink }});">
   <div class="vertical">
     <div class="home-banner-content fade-in-slowest">
       <div class="container">
