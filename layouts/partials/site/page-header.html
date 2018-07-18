@@ -1,4 +1,4 @@
-{{ if isset .Params "image" }}
+{{ if .Params "image" }}
 {{ $image := (resources.Get "images/lake.jpg").Fill "1500x800" }}
 <header class="page-header fade-in" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ $image.RelPermalink }});">
 {{ else }}
