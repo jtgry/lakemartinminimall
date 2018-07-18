@@ -13,8 +13,8 @@ blocks:
   image: uploads/_DSC0545.jpg
   image_alignment: left
   icon: ''
-  button_text: Learn More
-  button_url: "/Shop"
+  button_text: ''
+  button_url: ''
 - template: block-image
   heading: Versatile
   content: The Big Green Egg stands alone as the most versatile barbecue or outdoor
