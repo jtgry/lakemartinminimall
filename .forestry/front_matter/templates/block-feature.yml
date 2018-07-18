@@ -12,7 +12,7 @@ fields:
   name: content
   label: Content
   config:
-    required: true
+    required: false
 - type: file
   name: image
   label: Image

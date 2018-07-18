@@ -26,7 +26,10 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/visit-us.md
 - content/recreation.md
 - content/_index.md
+- content/furniture.md
 - content/outdoor.md
 - content/decor.md
+- content/big-green-egg.md
