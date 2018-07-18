@@ -6,11 +6,14 @@ blocks:
   heading: Breezesta Poly Outdoor Furniture
   content: "Come in and have a seat! You’ll instantly feel the comfort difference
     that quality materials and attention-to-detail make!  Breezesta just feels stronger
-    & sturdier, because it is.  \n   · Maintenance-free poly lumber is as tough as
-    it is durable\n   · Sturdy mortise and tenon construction\n   · Color-matched
-    hardware\n   · Guaranteed against twisting\nEvery Breezesta Poly Outdoor Furniture
-    piece carries a Residential Life Warranty against cracking, splintering, chipping,
-    peeling, rotting and insect infestation."
+    & sturdier, because it is. They are made with maintenance-free poly lumber is
+    as tough as it is durable.  Every year thousands of HDPE milk jugs and water bottles
+    are rescued from America's waste stream and recycled into sturdy poly lumber.
+    The result is safe, maintenance-free, stylish furniture that is affordably priced
+    for your backyard or patio. Each piece is made with sturdy mortise and tenon construction,
+    and color-matched hardware. Every Breezesta Poly Outdoor Furniture piece carries
+    a Residential Life Warranty against cracking, splintering, chipping, peeling,
+    rotting and insect infestation. \n"
   image: uploads/DSC_0400.jpg
   image_alignment: left
   button_text: 
@@ -37,5 +40,3 @@ blocks:
 type: ''
 
 ---
-
-Nothing enhances the enjoyment of outdoor living quite like our beautiful Adirondack Furniture, which is constructed by utilizing composite wood that is molded for deep grain beauty along with stainless steel fasteners.  This furniture has a deep lasting finish and attractive natural colors that gives it a timeless appeal. It was created by using multiple grain patterns for an authentic, natural look.
