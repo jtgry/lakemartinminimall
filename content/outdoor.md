@@ -4,15 +4,17 @@ image: uploads/DSC_0377-1.jpg
 icon: ''
 blocks:
 - template: block-image
-  heading: Fountains & Statuary
-  content: Fountains and Statuary provide more than just a decorative piece for your
-    home, garden, or office. They are works of art that bring an entire space new
-    feeling and depth. These beautiful concrete designs are essential in creating
-    the most pleasant and relaxing places on earth. Our company offers thousands of
-    crafted custom concrete built fountains and statuaries. Many of our larger pieces
-    can be sent to residential or commercial developments straight from the factories.  Our
-    fountains run off of standard wall current and are easy and convenient to put
-    in place.
+  heading: Fountains
+  content: Fountains provide more than just a decorative piece for your home, garden,
+    or office. They are works of art that bring an entire space new feeling and depth.
+    These beautiful concrete designs are essential in creating the most pleasant and
+    relaxing places on earth. Our company offers thousands of crafted custom concrete
+    built fountains, and many of our larger pieces can be sent to residential or commercial
+    developments straight from the factories.  Our fountains run off of standard wall
+    current and are easy and convenient to put in place. If you’re looking to add
+    a water feature, our team of fountain experts will work with you to design exactly
+    what you need! We can also provide custom lighting and color themes to really
+    make your fountain stand out!
   image: uploads/_DSC0528.jpg
   image_alignment: left
   button_text: ''
@@ -45,3 +47,4 @@ blocks:
 type: ''
 
 ---
+ 
