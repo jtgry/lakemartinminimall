@@ -15,7 +15,7 @@ blocks:
   button_text: 
   button_url: 
 - template: block-image
-  heading: Adirondack Chairs
+  heading: Eclectic Furniture
   content: 'Deep lasting, wood-like grain is created by multiple grain patterns giving
     our furniture authentic natural beauty. The natural colors and stainless steel
     hardware offer timeless appeal and lasting durability. Our chairs are extremely
