@@ -4,12 +4,13 @@ image: uploads/_DSC0080.jpg
 blocks:
 - template: block-image
   heading: Composite Furniture
-  content: Nothing enhances the enjoyment of outdoor living quite like our beautiful
-    Adirondack Furniture, which is constructed by utilizing composite wood that is
-    molded for deep grain beauty along with stainless steel fasteners.  This furniture
-    has a deep lasting finish and attractive natural colors that gives it a timeless
-    appeal. It was created by using multiple grain patterns for an authentic, natural
-    look.
+  content: "Come in and have a seat.  You’ll instantly feel the comfort difference
+    that quality materials and attention-to-detail make.  Breezesta just feels stronger,
+    studier because it is.  \n   · Maintenance-free poly lumber is as tough as it
+    is durable\n   · Sturdy mortise and tenon construction\n   ·  Color-matched hardware\n
+    \  ·  Guaranteed against twisting\nEvery Breezesta Poly Outdoor Furniture piece
+    carries a Residential Life Warranty against cracking, splintering, chipping, peeling,
+    rotting and insect infestation."
   image: uploads/DSC_0400.jpg
   image_alignment: left
   button_text: 
@@ -36,3 +37,16 @@ blocks:
 type: ''
 
 ---
+Come in and have a seat.  You’ll instantly feel the comfort difference that quality materials and attention-to-detail make.  Breezesta just feels stronger, studier because it is.  
+
+·       Maintenance-free poly lumber is as tough as it is durable
+
+·       Sturdy mortise and tenon construction
+
+·       Color-matched hardware
+
+·       Guaranteed against twisting
+
+Every Breezesta Poly Outdoor Furniture piece carries a Residential Life Warranty against cracking, splintering, chipping, peeling, rotting and insect infestation.
+
+Nothing enhances the enjoyment of outdoor living quite like our beautiful Adirondack Furniture, which is constructed by utilizing composite wood that is molded for deep grain beauty along with stainless steel fasteners.  This furniture has a deep lasting finish and attractive natural colors that gives it a timeless appeal. It was created by using multiple grain patterns for an authentic, natural look.
