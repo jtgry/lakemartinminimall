@@ -1,6 +1,6 @@
 ---
 title: "Thanks"
 draft: false
-image: "images/flowers.jpg"
+image: "images/lake.jpg"
 ---
 Thanks's for your message!
