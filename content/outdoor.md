@@ -29,13 +29,12 @@ blocks:
   button_url: ''
 - template: block-image
   heading: Planters and Pottery
-  content: We offer thousands of different planters and pottery so that you can find
-    the perfect piece for your home! From small succulent planters to large urns,
-    we have the perfect piece to fit your needs! We are a year-round retailer that
-    has over 330 ceramic and concrete flower pots to choose from, and we are proud
-    of our deep commitment to provide a quality product at a competitive price. With
-    our experienced sales associates, we can make your selections easier and more
-    enjoyable!
+  content: We offer many different planters and pottery so that you can find the perfect
+    piece for your home! From small succulent planters to large urns, we have the
+    perfect piece to fit your needs! We are a year-round retailer that has over 330
+    ceramic and concrete flower pots to choose from, and we are proud of our deep
+    commitment to provide a quality product at a competitive price. With our experienced
+    sales associates, we can make your selections easier and more enjoyable!
   image: uploads/_DSC0504.jpg
 - template: block-feature
   heading: Outdoor Kitchens
