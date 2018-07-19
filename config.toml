@@ -3,7 +3,10 @@ disableAliases = true
 enableRobotsTXT = true
 languageCode = "en-gb"
 title = "Lake Martin Mini Mall"
+
 assetDir = "static"
+
+googleAnalytics = "UA-122587276-1"
 
 [imaging]
 quality = 90
