@@ -22,9 +22,14 @@ blocks:
 - template: block-image
   heading: Stone
   content: 'Whether you are creating a walkway or building your home, we are guaranteed
-    to have the stone to fit all of your landscaping needs! We carry a wide variety
-    of rock including Moss Rock, River Rounds, Flagstone, Cottage Stack and Cottage
-    Corners. '
+    to have the stone to fit all of your landscaping needs! We carry Moss rock, which
+    is commonly used for constructing garden walls, sidewalks and for pavers around
+    pools. River Rounds that are widely used for drainage and landscaping solutions.
+    For dry creek beds, many customers use River Rock. We also supply Drain Rock and
+    River Rock for garden borders and house edging. Cottage Stack & Cottage Corners
+    to create that irresistible charm of a stone house! We carry a great inventory
+    to choose from to add to your masonry projects. Lastly, we carry a large selection
+    of flagstone for all of your building needs! '
   image: uploads/_DSC0461.jpg
   image_alignment: right
   button_text: ''
