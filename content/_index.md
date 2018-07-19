@@ -54,7 +54,7 @@ blocks:
     selections, but if you don't see what you are looking for, just give us a call!
     We would love to hear from you! "
   icon: ''
-  image: uploads/DSC_0252.jpg
+  image: uploads/DSC_0249.jpg
   image_alignment: left
   button_text: Learn More
   button_url: "/big-green-egg"
