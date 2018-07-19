@@ -1,6 +1,6 @@
 ---
 title: Apparel & Decor
-image: uploads/_DSC0639.jpg
+image: uploads/_DSC0341.jpg
 blocks:
 - template: block-image
   heading: 'Apparel '
