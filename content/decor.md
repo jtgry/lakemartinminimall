@@ -26,6 +26,15 @@ blocks:
   icon: ''
   button_text: ''
   button_url: ''
+- template: block-image
+  image: uploads/DSC_0492.jpg
+  heading: Home Decor
+  content: We have lots of home decor items to complete that perfect style in your
+    home! Anything from vintage to new items, we are certain to have something that
+    will catch your eye! Some items we carry include wall decor, wind chimes, driftwood,
+    vintage items, home accents, local art, and much more! We are always adding new
+    and unique items to our store!
+  image_alignment: right
 type: ''
 
 ---
