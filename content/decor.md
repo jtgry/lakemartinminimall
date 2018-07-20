@@ -1,6 +1,6 @@
 ---
 title: Home Decor
-image: uploads/_DSC0341.jpg
+image: uploads/DSC_0489.jpg
 blocks:
 - template: block-image
   heading: 'Apparel '
