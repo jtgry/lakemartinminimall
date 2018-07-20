@@ -18,7 +18,7 @@ blocks:
     button_text: Learn More
     button_url: "/big-green-egg"
   - template: block-item
-    name: Breezesta Poly Outdoor Furniture
+    name: Outdoor Furniture
     content: 'Come in and have a seat! You’ll instantly feel the comfort difference
       that quality materials and attention-to-detail make!  Breezesta just feels stronger
       & sturdier, because it is. They are made with maintenance-free poly lumber is
