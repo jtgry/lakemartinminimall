@@ -58,13 +58,10 @@ blocks:
   image_alignment: left
   button_text: Learn More
   button_url: "/big-green-egg"
-- template: block-feature
-  heading: ''
-  content: ''
-  image: uploads/lakemartinmap.jpg
-  image_alignment: right
+- template: block-map
   button_text: Directions
   button_url: https://goo.gl/maps/zS45zKDvBHv
+  image: uploads/lakemartinmap-1.jpg
 type: page
 
 ---
