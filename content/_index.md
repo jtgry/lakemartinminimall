@@ -18,13 +18,11 @@ blocks:
     button_text: Learn More
     button_url: "/big-green-egg"
   - template: block-item
-    name: Eclectic Furniture
-    content: Deep lasting, wood-like grain is created by multiple grain patterns giving
-      our furniture authentic natural beauty. The natural colors and stainless steel
-      hardware offer timeless appeal and lasting durability. Our chairs are extremely
-      low maintenance – no need for painting or staining! They can easily be cleaned
-      with soap and water. You will not have to worry about rotting, splintering,
-      splitting or termite damage ever again!
+    name: Breezesta Poly Outdoor Furniture
+    content: 'Come in and have a seat! You’ll instantly feel the comfort difference
+      that quality materials and attention-to-detail make!  Breezesta just feels stronger
+      & sturdier, because it is. They are made with maintenance-free poly lumber is
+      as tough as it is durable. '
     image: uploads/_DSC0050.jpg
     button_text: Learn More
     button_url: "/furniture"
