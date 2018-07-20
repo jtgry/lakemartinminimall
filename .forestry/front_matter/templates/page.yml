@@ -17,6 +17,7 @@ fields:
   name: blocks
   label: Blocks
   template_types:
+  - block-map
   - block-image
   - block-feature
   - block-feature-items
