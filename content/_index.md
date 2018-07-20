@@ -27,7 +27,7 @@ blocks:
     button_text: Learn More
     button_url: "/furniture"
   - template: block-item
-    name: Apparel & Gift Items
+    name: Gifts & Apparel
     content: 'We also offer a wide array of Apparel and Gift items! We have everything
       you need for your stay from lake gear to t-shirts! Plus, we offer many unique
       items from local artisans and makers. '
