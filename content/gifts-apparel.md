@@ -9,5 +9,11 @@ heading = "Earthborn Pottery"
 image = "uploads/DSC_0272.jpg"
 image_alignment = "right"
 template = "block-image"
+[[blocks]]
+content = "Represent your favorite parts of life on Lake Martin! We carry a wide variety of shirts and hats to fit your style! Additionally, the Lake Martin carries seasonal clothing items to help make your vacationing an everyday experience!"
+heading = "Apparel "
+image = "uploads/DSC_0334.jpg"
+image_alignment = "left"
+template = "block-image"
 
 +++
