@@ -1,39 +1,35 @@
+assetDir = "static"
 baseURL = "/"
 disableAliases = true
 enableRobotsTXT = true
+googleAnalytics = "UA-122587276-1"
 languageCode = "en-gb"
 title = "Lake Martin Mini Mall"
-
-assetDir = "static"
-
-googleAnalytics = "UA-122587276-1"
-
 [imaging]
-quality = 90
 anchor = "center"
-
+quality = 90
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffix = ""
-[[menu.main]]
-name = "Decor"
-url = "/decor/"
-weight = 6
 [[menu.main]]
 name = "Furniture"
 url = "/furniture/"
 weight = 4
 [[menu.main]]
-name = "Outdoor"
-url = "/outdoor"
-weight = 3
-[[menu.main]]
 name = "Big Green Egg"
 url = "/big-green-egg/"
 weight = 2
 [[menu.main]]
-name = "Recreation"
-url = "/recreation/"
+name = "Decor"
+url = "/decor/"
+weight = 6
+[[menu.main]]
+name = "Outdoor"
+url = "/outdoor"
+weight = 3
+[[menu.main]]
+name = "Gifts & Apparel"
+url = "/gifts-decore/"
 weight = 5
 [[menu.main]]
 name = "Visit Us"
