@@ -60,15 +60,11 @@ blocks:
   button_url: "/big-green-egg"
 - template: block-feature
   heading: Outdoor
-  content: Widely acclaimed as the original American-designed ceramic cooker, the
-    Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    Originally a clay vessel with a lid, today’s EGG® is a modern ceramic marvel known
-    for producing amazing culinary results for the novice and expert alike for over
-    thirty years!
-  image: uploads/_DSC0241.jpg
+  content: ''
+  image: uploads/lakemartinmap.jpg
   image_alignment: right
-  button_text: Learn More
-  button_url: "/outdoor"
+  button_text: Directions
+  button_url: https://goo.gl/maps/zS45zKDvBHv
 type: page
 
 ---
