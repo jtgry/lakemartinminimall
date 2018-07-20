@@ -1,0 +1,17 @@
+---
+label: Block Map
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: header
+  label: Header
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: button_text
+  label: Button Text
+- type: text
+  name: button_url
+  label: Button URL
