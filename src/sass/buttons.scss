@@ -44,7 +44,9 @@ button{
 /* fancy Button */
 button.fancy-button,a.fancy-button {
   display: inline-block;
-  margin: 30px;
+  margin-top: $spacing-unit / 3;
+  margin-bottom: $spacing-unit / 2;
+  margin-right: $spacing-unit / 2;
   font-family: $base-font-family;
   font-size: 17px;
   letter-spacing: 0.03em;

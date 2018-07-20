@@ -61,12 +61,15 @@
   }
   .block-text{
     text-align: center;
+    @media (max-width: $tablet) {
+      text-align: left;
+    }
     p{
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
     h2{
       font-size: 3rem;
-      margin-bottom: $spacing-unit / 2;
+      text-align: center;
       @media (max-width: $tablet) {
         font-size: 2rem;
       }
@@ -105,10 +108,9 @@
     h2{
       font-size: 4rem;
       font-family: $header-font-family;
-      margin-bottom: $spacing-unit / 2;
       color: $color-white;
       @media (max-width: $tablet) {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
     hr{
@@ -127,10 +129,10 @@
   @media (max-width: $tablet) {
     @include stack();
     box-shadow: none;
-    
+    text-align: left;
   }
   p{
-    font-size: .9rem;
+    font-size: 1rem;
   }
   h3{
     font-size: 2rem;
@@ -163,9 +165,12 @@
 .block-text{
   width: 100%;
   text-align: center;
+  @media (max-width: $tablet) {
+    text-align: left;
+  }
   h2{
-    font-size: 3rem;
-    margin-bottom: $spacing-unit / 2;
+    font-size: 2rem;
+    text-align: center;
     color: $color-brand;
   }
 }
@@ -201,4 +206,11 @@
   box-shadow: $box-shadow;
   @include column(1/4, $cycle: 4);
   margin-bottom: $spacing-unit;
+  @media (max-width: $tablet) {
+    @include column(1/2, $cycle: 2);
+    min-height: 40vw;
+    max-height: 40vw;
+    height: 40vw;
+    margin-bottom: $spacing-unit / 2;
+  }
 }

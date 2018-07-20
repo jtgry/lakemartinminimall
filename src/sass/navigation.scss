@@ -56,6 +56,10 @@ nav{
   .nav-items{
     height: 5em;
     width: 100%;
+    .nav-itle{
+      display: inline-block;
+      float: left;
+    }
     img.nav-logo{
       height: 2em;
       padding: .3em 0 ;
@@ -105,8 +109,9 @@ nav{
 }
 a.nav-button {
   display: none;
-  padding: $spacing-unit / 2.38;
-  z-index: 2000;
+  margin-top: 1.8em;
+  margin-right: 1.8em;
+  z-index: $height-top;
   box-shadow: none;
   float: right;
   @media (max-width: $tablet) {
@@ -152,7 +157,7 @@ a.nav-button {
   height: 100vh;
 }
 .mobile-nav-items a{
-  font-size: .9rem;
+  font-size: 1.1rem;
   letter-spacing: .1em;
   display: block;
   padding: .5em 0;

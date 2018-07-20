@@ -18,15 +18,15 @@
             {{ $image := (resources.Get .image).Fill "600x500" }}
               <div class="block-feature-item">
                 <img src="{{ $image.RelPermalink }}" alt="{{ .name }}">
-                <h3>{{ .name }}</h3>
-                {{ with .content }}
+                <h3>{{ .name }}</h3>              
                 <div class="container">
-                  <p>{{ markdownify . }}</p>
+                  {{ with .content }}
+                    <p>{{ markdownify . }}</p>
+                  {{ end }}
+                  {{- if and .button_url .button_text -}}
+                  <a href="{{ .button_url }}" class="fancy-button bg2"><span>{{ .button_text }}</span></a>
+                  {{ end }}
                 </div>
-                {{ end }}
-                {{- if and .button_url .button_text -}}
-                <a href="{{ .button_url }}" class="fancy-button bg2"><span>{{ .button_text }}</span></a>
-                {{ end }}
               </div>
 
             {{ end }}
