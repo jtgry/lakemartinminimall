@@ -19,11 +19,10 @@ blocks:
     button_url: "/big-green-egg"
   - template: block-item
     name: Outdoor Furniture
-    content: 'Come in and have a seat! You’ll instantly feel the comfort difference
-      that quality materials and attention-to-detail make!  Breezesta just feels stronger
-      & sturdier, because it is. They are made with maintenance-free poly lumber is
-      as tough as it is durable. '
-    image: uploads/_DSC0050.jpg
+    content: 'The area''s largest selection of composite outdoor furniture! Breezesta
+      boasts a lifetime warranty available in 20 colors! Also, Eclectic Furniture
+      Company''s Heavy Line is built locally and designed to withstand the elements! '
+    image: uploads/_DSC0489.jpg
     button_text: Learn More
     button_url: "/furniture"
   - template: block-item
