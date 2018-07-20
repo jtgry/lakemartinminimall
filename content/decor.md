@@ -1,5 +1,5 @@
 ---
-title: Apparel & Decor
+title: Home Decor
 image: uploads/_DSC0341.jpg
 blocks:
 - template: block-image
