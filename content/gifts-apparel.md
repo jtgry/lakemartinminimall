@@ -19,6 +19,7 @@ template = "block-image"
 content = "From mugs to playing cards to coasters and much more! We have the perfect souvenirs to help you represent Lake Martin! Looking for that perfect gift for the Lake lover in your life? Come see us!"
 heading = "Gifts"
 image = "uploads/DSC_0453.jpg"
+image_alignment = "left"
 template = "block-image"
 
 +++
