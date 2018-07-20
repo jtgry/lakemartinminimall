@@ -2,24 +2,6 @@
 title: Home Decor
 image: uploads/DSC_0489.jpg
 blocks:
-- template: block-image
-  heading: 'Apparel '
-  content: |2-
-
-    Represent your favorite parts of life on Lake Martin! We carry a wide variety of shirts and hats to fit your style! Additionally, the Lake Martin carries seasonal clothing items to help make your vacationing an everyday experience!
-  image: uploads/DSC_0334.jpg
-  image_alignment: left
-  button_text: Learn More
-  button_url: "/Shop"
-- template: block-image
-  heading: Gift Items
-  content: 'From mugs to playing cards to coasters and much more! We have the perfect
-    souvenirs to help you represent Lake Martin! Looking for that perfect gift for
-    the Lake lover in your life? Come see us! '
-  image: uploads/DSC_0453.jpg
-  image_alignment: right
-  button_text: Learn More
-  button_url: "/Shop"
 - heading: Earthborn Pottery
   content: Now you can have the look of a fine restaurant at home. Earthborn pottery
     comes in a variety of styles and shapes. Each item is tough enough to withstand
