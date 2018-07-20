@@ -59,7 +59,7 @@ blocks:
   button_text: Learn More
   button_url: "/big-green-egg"
 - template: block-feature
-  heading: Outdoor
+  heading: ''
   content: ''
   image: uploads/lakemartinmap.jpg
   image_alignment: right
