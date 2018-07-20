@@ -29,7 +29,7 @@ url = "/outdoor"
 weight = 3
 [[menu.main]]
 name = "Gifts & Apparel"
-url = "/gifts-decore/"
+url = "/gifts-apparel"
 weight = 5
 [[menu.main]]
 name = "Visit Us"
