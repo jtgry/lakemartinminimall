@@ -30,7 +30,7 @@ window.onload = function () {
   window.sr = ScrollReveal({
     delay: 1,
     scale: 0.99,
-    viewFactor: 0.4,
+    viewFactor: 0.1,
     distance: "2em"
   });
   sr.reveal('.block-content', {origin: 'bottom', delay: 2, duration: 800});
