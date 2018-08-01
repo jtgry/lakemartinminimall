@@ -4,12 +4,16 @@ auto_deploy: false
 admin_path: "/update"
 webhook_url: 
 sections:
-- path: content
+- type: directory
+  path: content
   label: Pages
   create: all
-- path: content/journal
+  match: "*"
+- type: directory
+  path: content/journal
   label: Journal
   create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: uploads
 front_matter_path: ''
