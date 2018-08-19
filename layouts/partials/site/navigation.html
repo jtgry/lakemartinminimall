@@ -18,7 +18,7 @@
     </a>
       </div>
     </div>
-    <a href="#contact" class="nav-link">Contact Us</a>
+    <a href="/contact" class="nav-link">Contact Us</a>
   </div>
 </nav>
 <nav id="mobile-nav" class="mobile-nav exit">
@@ -30,6 +30,9 @@
           <a href="{{ .URL }}" id="" class="navbar-item{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
             {{ .Name }}
           </a>
+        </li>
+        <li>
+          <a href="/contact" id="" class="navbar-item">Contact</a>
         </li> 
       {{ end }}
     </ul>
