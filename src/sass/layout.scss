@@ -17,7 +17,7 @@
   @media (max-width: $tablet) {
     height: 70vh;
     min-height: 70vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
   .home-banner-content{
     width: 100%;
@@ -93,7 +93,7 @@
   display: table;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
