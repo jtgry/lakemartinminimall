@@ -32,7 +32,7 @@ blocks:
       items from local artisans and makers. '
     image: uploads/DSC_0332.jpg
     button_text: Learn More
-    button_url: "/big-green-egg"
+    button_url: "/gifts-apparel/"
 - template: block-image
   heading: 'Welcome! '
   content: 'Thank you for taking time to check out our site! As you will see, we are

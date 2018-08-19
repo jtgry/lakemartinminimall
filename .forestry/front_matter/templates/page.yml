@@ -27,8 +27,8 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/furniture.md
 - content/_index.md
+- content/furniture.md
 - content/decor.md
 - content/gifts-apparel.md
 - content/recreation.md
