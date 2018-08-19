@@ -133,6 +133,9 @@
   }
   p{
     font-size: 1rem;
+    @media (max-width: $tablet) {
+      font-size: .8rem;
+    }
   }
   h3{
     font-size: 2rem;
