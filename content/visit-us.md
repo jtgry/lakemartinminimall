@@ -3,7 +3,7 @@ title: Visit Us
 image: uploads/DSC_0252.jpg
 blocks:
 - template: block-image
-  heading: Big Green Egg
+  heading: About Us
   content: 'We are family owned and operated, and have lived, worked, and played on
     Lake Martin for most of our lives! Although we mostly serve the Lake Martin area,
     we can ship all over the United States. So please let us know if there is anything
