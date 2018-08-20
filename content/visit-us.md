@@ -35,6 +35,7 @@ blocks:
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
+- template: block-map
 type: ''
 
 ---
