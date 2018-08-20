@@ -47,13 +47,11 @@ blocks:
   button_url: "/furniture"
 - template: block-image
   heading: 'About Us '
-  content: "Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin
+  content: 'Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin
     Mini Mall is conveniently located on Hwy 63, just north of Eclectic, AL. We offer
     a wide selection of concrete pottery; including water fountains, statuary, planters,
     and more! We also have an indoor mall full of furniture, clothing, decor and more….as
-    well as being home to the Big Green Egg! \nFeel free to browse through our online
-    selections, but if you don't see what you are looking for, just give us a call!
-    We would love to hear from you! "
+    well as being home to the Big Green Egg! '
   icon: ''
   image: uploads/DSC_0249.jpg
   image_alignment: left
