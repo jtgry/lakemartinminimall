@@ -33,6 +33,9 @@ blocks:
   button_text: Learn More
   button_url: "/big-green-egg"
 - template: block-map
+  image: uploads/lakemartin.jpg
+  button_text: Directions
+  button_url: https://goo.gl/maps/zS45zKDvBHv
 type: ''
 
 ---
