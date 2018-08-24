@@ -4,12 +4,10 @@ image: uploads/_DSC0080.jpg
 blocks:
 - template: block-image
   heading: Eclectic Furniture Company
-  content: 'Deep lasting, wood-like grain is created by multiple grain patterns giving
-    our furniture authentic natural beauty. The natural colors and stainless steel
-    hardware offer timeless appeal and lasting durability. Our chairs are extremely
-    low maintenance – no need for painting or staining! They can easily be cleaned
-    with soap and water. You will not have to worry about rotting, splintering, splitting
-    or termite damage ever again! '
+  content: 'Eclectic Furniture''s Heavy Line is designed and constructed to withstand
+    the harsh outdoor elements and high wind conditions. Stainless Steel fasteners
+    and compressed molded composite material make this line the perfect choice for
+    condo balconies, decks, and docks. '
   image: uploads/_DSC0155.jpg
   image_alignment: right
   button_text: 
