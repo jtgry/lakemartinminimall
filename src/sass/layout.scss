@@ -67,6 +67,7 @@
     ul{
       margin: 0;
       @include span(1/2, $cycle: 2);
+      margin-bottom: $spacing-unit / 4;
     }
     li{
       list-style: none; 
