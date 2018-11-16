@@ -12,13 +12,6 @@ blocks:
   button_url: 
   items:
   - template: block-item
-    name: Big Green Egg
-    content: Widely acclaimed as the original American-designed ceramic cooker, the
-      Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    image: uploads/_DSC0556.jpg
-    button_text: Learn More
-    button_url: "/big-green-egg/"
-  - template: block-item
     name: Outdoor Furniture
     content: 'The area''s largest selection of composite outdoor furniture! Breezesta
       boasts a lifetime warranty available in 20 colors! Also, Eclectic Furniture
@@ -34,6 +27,13 @@ blocks:
     image: uploads/DSC_0332.jpg
     button_text: Learn More
     button_url: "/gifts-apparel/"
+  - template: block-item
+    name: Big Green Egg
+    content: Widely acclaimed as the original American-designed ceramic cooker, the
+      Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
+    image: uploads/_DSC0556.jpg
+    button_text: Learn More
+    button_url: "/big-green-egg/"
 - template: block-image
   heading: 'Welcome! '
   content: 'Thank you for taking time to check out our site! As you will see, we are
@@ -47,12 +47,12 @@ blocks:
   button_text: Learn More
   button_url: "/furniture"
 - template: block-image
-  heading: 'About Us'
-  content: 'Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin
+  heading: About Us
+  content: Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin
     Mini Mall is conveniently located on Hwy 63, just north of Eclectic, AL. We offer
     a wide selection of concrete pottery; including water fountains, statuary, planters,
     and more! We also have an indoor mall full of furniture, clothing, decor and more….as
-    well as being home to the Big Green Egg!'
+    well as being home to the Big Green Egg!
   icon: ''
   image: uploads/DSC_0249.jpg
   image_alignment: left
