@@ -1,21 +1,30 @@
 {{ $image := (resources.Get .Params.image).Fill "1500x1000" }}
-<section class="block-feature" alt="{{ .Params.heading }}" style="background-image:url({{ $image.RelPermalink }});">
-    <div class="vertical">
-      <div class="block-feature-content">
-        <div class="block-text">
-          <div class="container">
-              {{- with .Params.heading -}}
-              <h2>{{ markdownify . }}</h2>
-              <hr />
-              {{ end }}
-              {{- with .Params.content -}}
-              <p>{{ markdownify . }}</p>
-              {{- end -}}
-              {{- if and .Params.button_url .Params.button_text -}}
-              <a href="{{ .Params.button_url }}" class="fancy-button bg2"><span>{{ .Params.button_text }}</span></a>
-              {{ end }}
-          </div>
+<div class="block-feature-content">
+  <div class="block-text">
+    <div class="container">
+        {{- with .Params.intro -}}
+        <p class="intro">{{ markdownify . }}</p>
+        {{ end }}
+        {{- with .Params.heading -}}
+        <h2>{{ markdownify . }}</h2>
+        <hr />
+        {{ end }}
+        {{- with .Params.content -}}
+        <p>{{ markdownify . }}</p>
+        {{- end -}}
+    </div>
+  </div>
+</div>
+<section class="block-feature center-text" alt="{{ .Params.heading }}" style="background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url({{ $image.RelPermalink }});">
+  <div class="vertical">
+    <div class="block-feature-content">
+      <div class="block-text">
+        <div class="container">
+            {{- if and .Params.button_url .Params.button_text -}}
+            <a href="{{ .Params.button_url }}" class="button shadow"><span>{{ .Params.button_text }}</span></a>
+            {{ end }}
         </div>
       </div>
     </div>
+  </div>
 </section>

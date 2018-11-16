@@ -63,10 +63,10 @@ h6{
   font-size: 1.2rem;
 }
 p{
-  font-family: $base-font-family;
-  font-size: 1.2rem;
+  font-family: $header-font-family;
+  font-size: 1rem;
   color: $color-black;
-  letter-spacing: .01em;
+  letter-spacing: -.02em;
 }
 li,ol,td,th{
     font-family: $base-font-family;
@@ -121,7 +121,8 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: $header-font-family;
-    color: $color-brand-alt;
+    line-height: 1.4;
+    color: $color-brand;
     margin-bottom: $spacing-unit / 3;
 }
 

@@ -3,8 +3,120 @@
   margin: auto;
 }
 .home-banner{
-  height: 90vh;
-  min-height: 90vh;
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @media (max-width: $tablet) {
+    background-attachment: scroll;
+    background-position: bottom right;
+
+  }
+  .home-header-overlay{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    background: $color-grey;
+    background: linear-gradient(160deg, $color-transparent 20%, $color-brand 100%); 
+    opacity: .8;
+    @media (max-width: $tablet) {
+      background: linear-gradient(200deg, $color-white 10%, $color-brand 60%); 
+      opacity: .6;
+      height: 150vh;
+    }
+  }
+  .home-banner-content{
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+    border-radius: .2em;
+    position: relative;
+    z-index: height-top;
+    .home-banner-logo{
+      height: 50vh;
+      width: auto;
+      margin-bottom: $spacing-unit / 2;
+      @media (max-width: $tablet) {
+        height: 40vh;
+      }
+    }
+    .home-banner-title{
+      font-size: 4rem;
+    }
+  }
+
+  .home-intro{
+    background: $color-brand;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: -2em;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity: .95;
+    @media (max-width: $tablet) {
+      height: auto;
+    }
+    a{
+      font-size: 1rem;
+      color: $color-white;
+    }
+    h3{
+      font-size: 1.8rem;
+      color: $color-white;
+      margin: 0;
+      margin-bottom: $spacing-unit / 4;
+    }
+    .home-intro-item{
+      @include span(1/3);
+      padding: $spacing-unit / 2 0;
+      text-align: center;
+      @media (max-width: $tablet) {
+        @include stack();
+        margin-bottom: $spacing-unit / 2;
+      }
+      ul{
+        margin: 0;
+        @include span(1/2, $cycle: 2);
+        margin-bottom: $spacing-unit / 4;
+      }
+      li{
+        list-style: none; 
+        margin: 0;
+        color: $color-white;
+        font-size: .8rem;
+        
+      }
+      b{
+        text-transform: uppercase;
+        letter-spacing: .1em;
+      }
+      .button{
+        margin: 0 auto;
+        margin-top: $spacing-unit / 3;
+        text-align: center
+      
+      }
+    }
+  }
+} 
+
+.page{
+  margin: $spacing-unit;
+  @media (max-width: $tablet) {
+    margin: $spacing-unit $spacing-unit / 4;
+  }
+}
+.page-header{
+  height: 70vh;
+  min-height: 70vh;
   width: 100%;
   display: table;
   background-repeat: no-repeat;
@@ -19,100 +131,26 @@
     min-height: 70vh;
     background-attachment: scroll;
   }
-  .home-banner-content{
+  .page-header-overlay{
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: .2em;
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
-    .home-banner-logo{
-      height: 50vh;
-      width: auto;
-      margin-bottom: $spacing-unit / 2;
-      @media (max-width: $tablet) {
-        height: 30vh;
-      }
-    }
-    .home-banner-title{
-      font-size: 4rem;
-    }
-  }
-} 
-
-.home-intro{
-  background: $color-brand;
-  width: 100%;
-  box-shadow: $box-shadow-alt;
-  padding: $spacing-unit / 2 0;
-  margin-top: -$spacing-unit * 2;
-  margin-bottom: $spacing-unit;
-  display: table;
-  text-align: center;
-  a{
-    font-size: 1rem;
-    color: $color-white;
-  }
-  h3{
-    font-size: 1.8rem;
-    color: $color-white;
-    margin: 0;
-    margin-bottom: $spacing-unit / 4;
-  }
-  .home-intro-item{
-    @include span(1/3);
-    @media (max-width: $tablet) {
-      @include stack();
-    }
-    ul{
-      margin: 0;
-      @include span(1/2, $cycle: 2);
-      margin-bottom: $spacing-unit / 4;
-    }
-    li{
-      list-style: none; 
-      margin: 0;
-      color: $color-white;
-      font-size: .8rem;
-    }
-    b{
-      text-transform: uppercase;
-      letter-spacing: .1em;
-    }
-  }
-}
-.page{
-  margin: $spacing-unit;
-  @media (max-width: $tablet) {
-    margin: $spacing-unit $spacing-unit / 4;
-  }
-}
-.page-header{
-  height: 90vh;
-  min-height: 90vh;
-  width: 100%;
-  display: table;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  @media (max-width: $tablet) {
-    height: 60vh;
-    min-height: 60vh;
-    background-attachment: scroll;
+    height: 70vh;
+    position: absolute;
+    background: $color-brand;
+    background: linear-gradient(200deg, $color-white 30%, $color-brand-alt 100%); 
+    opacity: .6;
+    
   }
   .page-header-content{
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
     .page-title{
       font-size: 5rem;
       font-family: $header-font-family;
       margin: 0;
       color: $color-white;
+      text-shadow: $box-shadow;
       @media (max-width: $tablet) {
         font-size: 3rem;
       }

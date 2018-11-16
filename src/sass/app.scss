@@ -92,9 +92,9 @@
 }
 
 // Our variables
-$base-font-family: 'oswald', serif;
+$base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-weight: 500;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.7;
 
@@ -104,18 +104,18 @@ $header-font-family: 'lora', serif;
 
 $spacing-unit:     3rem;
 
-$color-black:      rgba(40,40,40,0.9);
+$color-black:      rgba(60,60,60,0.9);
 $color-white:      rgba(254,254,254,1);
 $color-off-white:  rgba(240,240,240,.95);
 $color-brand:      rgba(38,105,108,1);
-$color-brand-alt:  rgba(38,105,108,1);
+$color-brand-alt: rgba(38,105,108,.7);
 $color-transparent:rgba(0,0,0,0);
 $color-grey:       rgba(200,200,200,1);
 $color-grey-light: lighten($color-grey, 10%);
 $color-grey-dark:  darken($color-grey, 20%);
 
 $box-shadow: 0px 0px 15px rgba(0,0,0,0.15), 0px 0px 4px rgba(0,0,0,0.1);
-$box-shadow-alt: 11px 10px 40px rgba(0,0,0,.2);
+$box-shadow-alt: 11px 10px 40px rgba(0,0,0,.3);
 
 $height-bottom: 100;
 $height-middle: 200;

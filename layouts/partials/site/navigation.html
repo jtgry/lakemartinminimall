@@ -1,29 +1,32 @@
 <nav id="main-nav" class="fade-in-slower">
-  <div class="vertical">
     <div class="nav-container">
-      <div class="nav-items">
         <a href="{{ .Site.BaseURL }}" class="nav-title"><img class="nav-logo" src="/images/logo-small.svg" alt="{{ .Site.Title }}"></a>
-        <ul>
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.main.ByWeight }}
-            <li>
-              <a href="{{ .URL }}" id="" class="navbar-item{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                {{ .Name }}
-              </a>
-            </li> 
-          {{ end }}
-        </ul>
-            <a href="#" class="nav-button" id="navButton">
-      <span class="burger-icon"></span>
-    </a>
+      <div class="nav-items">
+          <div class="vertical">
+          <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main.ByWeight }}
+              <li>
+                <a href="{{ .URL }}" id="" class="navbar-item{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                  {{ .Name }}
+                </a>
+              </li> 
+            {{ end }}
+            <a href="#contact" class="button nav-button"><span>Contact</span></a>
+          </ul>
+          
+          <a href="#" class="nav-button" id="navButton">
+            <span class="burger-icon"></span>
+          </a>
+        </div>
       </div>
     </div>
-    <a href="/contact" class="nav-link">Contact Us</a>
-  </div>
+
 </nav>
 <nav id="mobile-nav" class="mobile-nav exit">
   <div class="mobile-nav-items">
-    <ul class=vertical>
+    <div class="vertical">
+    <ul>
       {{ $currentPage := . }}
         {{ range .Site.Menus.main.ByWeight }}
         <li>
@@ -31,10 +34,12 @@
             {{ .Name }}
           </a>
         </li>
+        {{ end }}
         <li>
-          <a href="/contact" id="" class="navbar-item">Contact</a>
+          <a href="/contact/" id="" class="navbar-item">Contact</a>
         </li> 
-      {{ end }}
+
     </ul>
+    </div>
   </div>
 </nav>

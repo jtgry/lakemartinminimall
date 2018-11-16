@@ -1,117 +1,90 @@
-/* Mixins */
-@mixin gradientBg($startColor, $endColor) {
-  background: $startColor;
-  background: -moz-linear-gradient(left,  $startColor 0%, $endColor 80%,$endColor 100%);
-  background: -webkit-linear-gradient(left,  $startColor 0%, $endColor 80%,$endColor 100%);
-  background: linear-gradient(to right,  $startColor 0%, $endColor 80%,$endColor 100%);
-}
-@mixin gradientBorder($startColor, $endColor) {
-  background: $startColor;
-}
-
-/* bg shortcodes */
-.bg-gradient1 span,
-.bg-gradient1:before {
-  @include gradientBg($color-brand, $color-brand-alt);
-}
-.bg-gradient2 span,
-.bg-gradient2:before {
-  @include gradientBorder($color-brand, $color-brand-alt);
-  color: $color-brand;
-}
-.bg-gradient3 span,
-.bg-gradient3:before {
-  @include gradientBg(#fa6c9f, #ffe140);
-}
-
-.bg1 span,
-.bg1:before {
-  background: $color-brand;
-  border: .2em solid $color-white;
-}
-
-.bg2 span,
-.bg2:before {
-  background: $color-brand;
-  border: .2em solid $color-brand;
-}
-button{
-    background: none;
-    border: none;
-    padding: none;
-    margin: none;
-  }
-/* fancy Button */
-button.fancy-button,a.fancy-button {
-  display: inline-block;
-  margin-top: $spacing-unit / 3;
-  margin-bottom: $spacing-unit / 2;
-  margin-right: $spacing-unit / 2;
-  font-family: $base-font-family;
-  font-size: 17px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  position: relative;
+button,a.button {
+    background: $color-brand;
+    display: inline-block;
+    border: 0;
+    border-radius: .3em;
+    box-sizing: border-box;
+    margin: $spacing-unit / 2;
+    margin-left: 0;
+    padding: 1em 2em;
+    font-family: $base-font-family;
+    z-index: 1;
+    
+    // Using inset box-shadow instead of border for sizing simplicity
+    box-shadow: inset 0 0 0 .2em $color-brand;
+    color: $color-brand;
+    font-size: inherit;
+    font-weight: 600;
+    text-transform: uppercase; 
   
-  span {
-      display: inline-block;
-      padding: 1em 2em;
-      position: relative;
-      z-index: 2;
-      will-change: transform, filter;
-      transform-style: preserve-3d;
-      transition: all 0.2s ease-out;
-      box-shadow: $box-shadow;
-      @media (max-width: $tablet) {
-        padding: .5em 1em;
+    // Required, since we're setting absolute on pseudo-elements
+    position: relative;
+    vertical-align: middle;
+    will-change: transform,filter;
+    transform-style: preserve-3d;
+    transition: all .2s ease-out;
+  
+    &:hover{
+  
+      transform: scale(1.01);
+    }
+    &.shadow{
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: inherit;
+        border-radius: 5em;
+        top: 0.5rem;
+        left: 0;
+        filter: blur(0.4rem);
+        opacity: 0.4;
+        z-index: -1;
+        transition: opacity .25s ease;
+        -moz-transition: opacity .25s ease;
+        -webkit-transition: opacity .25s ease;
       }
-  }
-  &:focus,
-  &:active {
-      color: #ffffff;
-  }
-  &:hover {
-      color: #ffffff;
+      &:hover::after{
+          filter: blur(0.6rem);
+          opacity: 0.6;
       
-      span {
-          filter: brightness(1.05) contrast(1.05);
-          transform: scale(0.97);
       }
-      &:before {
-          bottom: 0;
-          filter: blur(10px) brightness(1);
+    }
+  
+    span{
+      color: $color-white;
+      font-size: .7rem;
+      letter-spacing: .1em;
+    }
+    &.alt{
+      background: none;
+      border: .1em solid $color-white;
+      span{
+        color: $color-white;
+  
       }
+    }
+    &.small{
+      padding: .5em 1em;
+      span{
+        font-size: .6rem;
+        @media (max-width: $tablet) {
+          font-size: 1rem;
+        }
+        
+      }
+    }
+    &.nav-button {
+      margin: 0;
+      float: right;
+      padding: .6em 2em;
+      span{
+        font-size: .7rem;
+
+      }
+
+    }
   }
-  &.pop-onhover {
-      
-      &:before {
-          opacity: 0;
-          bottom: 10px;
-      }
-      &:hover {
-          
-          &:before {
-              bottom: -7px;
-              opacity: 1;
-              filter: blur(20px);
-          }
-          span {
-              transform: scale(1.04);
-          }
-          &:active {
-              
-              span {
-                  filter: brightness(1) contrast(1);
-                  transform: scale(1);
-                  transition: all 0.15s ease-out;
-              }
-              &:before {
-                  bottom: 0;
-                  filter: blur(10px) brightness(0.95);
-                  transition: all 0.2s ease-out;
-              }
-          }
-      }
-  }
-}
+  
+  button:focus {outline:0;}

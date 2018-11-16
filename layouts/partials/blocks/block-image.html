@@ -1,31 +1,26 @@
 <section class="block-section">
-  {{- if .Params.image -}}
-  {{ $image := (resources.Get .Params.image).Fill "1000x700" }}
-  <div alt="{{ .Params.heading }}" class="block-image {{ .Params.image_alignment }}" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url({{ $image.RelPermalink }});">
-  {{ else }}
-  <div alt="{{ .Params.heading }}" class="block-image">
-  {{ end }}
-  {{- if .Params.icon }}
-    <div class="vertical">
-      <div class="container" >
-        <img src="/{{ .Params.icon }}"/>
-      </div>
+  <div class="vertical">
+    {{- if .Params.image -}}
+    {{ $image := (resources.Get .Params.image).Fill "800x1000" }}
+    <div class="block-image {{ .Params.image_alignment }}">
+    <img src="{{ $image.RelPermalink }}" alt="{{ .Params.heading }}">
+    <div class="block-image-overlay"></div>
     </div>
-  {{ end }}
-  </div>
-  <div class="block-content">
-    <div class="block-text vertical">
-      <div class="container">
-          {{- with .Params.heading -}}
-          <h2>{{ markdownify . }}</h2>
-          <hr />
-          {{ end }}
-          {{- with .Params.content -}}
-          <p>{{ markdownify . }}</p>
-          {{- end -}}
-          {{- if and .Params.button_url .Params.button_text -}}
-          <a href="{{ .Params.button_url }}" class="fancy-button bg2"><span>{{ .Params.button_text }}</span></a>
-          {{ end }}
+    {{ end }}
+    <div class="block-content">
+      <div class="block-text vertical">
+        <div class="container">
+            {{- with .Params.heading -}}
+            <hr />
+            <h2>{{ markdownify . }}</h2>
+            {{ end }}
+            {{- with .Params.content -}}
+            <p>{{ markdownify . }}</p>
+            {{- end -}}
+            {{- if and .Params.button_url .Params.button_text -}}
+            <a href="{{ .Params.button_url }}" class="button shadow"><span>{{ .Params.button_text }}</span></a>
+            {{ end }}
+        </div>
       </div>
     </div>
   </div>

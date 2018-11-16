@@ -1,37 +1,38 @@
 <section id="block-feature-items" class="block-feature-alt">
-    <div class="vertical">
-      <div class="block-feature-content">
-        <div class="block-text">
-          <div class="container">
-            {{- with .Params.heading -}}
-            <h2>{{ markdownify . }}</h2>
-            <hr />
-            {{ end }}
-            {{- with .Params.content -}}
-            <p>{{ markdownify . }}</p>
-            {{- end -}}
-          </div>
-          </div>
-        <div class="wrapper">
-          {{- if .Params.items -}}
-            {{ range .Params.items }}
-            {{ $image := (resources.Get .image).Fill "600x500" }}
-              <div class="block-feature-item">
-                <img src="{{ $image.RelPermalink }}" alt="{{ .name }}">
-                <h3>{{ .name }}</h3>              
-                <div class="container">
-                  {{ with .content }}
-                    <p>{{ markdownify . }}</p>
-                  {{ end }}
-                  {{- if and .button_url .button_text -}}
-                  <a href="{{ .button_url }}" class="fancy-button bg2"><span>{{ .button_text }}</span></a>
-                  {{ end }}
-                </div>
-              </div>
-
-            {{ end }}
-          {{ end }}
-        </div>
+  <div class="block-feature-content">
+      <div class="container">
+        {{- with .Params.intro -}}
+          <p class="intro">{{ markdownify . }}</p>
+        {{ end }}
+        {{- with .Params.heading -}}
+        <h2>{{ markdownify . }}</h2>
+        <hr />
+        {{ end }}
+        {{- with .Params.content -}}
+        <p>{{ markdownify . }}</p>
+        {{- end -}}
       </div>
+    <div class="block-feature-items">
+      {{- if .Params.items -}}
+        {{ range .Params.items }}
+        {{ $image := (resources.Get .image).Fill "1200x800" }}
+          <div class="block-feature-item">
+            <div class="block-feature-image">
+                <h3>{{ .name }}</h3>    
+              <img src="{{ $image.RelPermalink }}" alt="{{ .name }}">
+            </div>
+            <div class="container">    
+              {{ with .content }}
+                <p>{{ markdownify . }}</p>
+              {{ end }}
+              {{- if and .button_url .button_text -}}
+              <a href="{{ .button_url }}" class="button shadow"><span>{{ .button_text }}</span></a>
+              {{ end }}
+            </div>
+          </div>
+
+        {{ end }}
+      {{ end }}
     </div>
+  </div>
 </section>

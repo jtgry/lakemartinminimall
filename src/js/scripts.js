@@ -40,7 +40,7 @@ window.onload = function () {
   sr.reveal('.block-feature-item', {origin: 'bottom', duration: 600 }, 200);
   sr.reveal('.block-title', {origin: 'bottom', duration: 600}, 200);
   sr.reveal('.block-instagram', {origin: 'bottom', duration: 600 }, 200);
-  sr.reveal('.fancy-button', {origin: 'bottom', duration: 600 }, 200);
+  sr.reveal('.button', {origin: 'bottom', duration: 600 }, 200);
   sr.reveal('footer', {origin: 'bottom', duration: 600});
 
   var menuButton = document.getElementById('navButton');

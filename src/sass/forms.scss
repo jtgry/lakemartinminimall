@@ -13,9 +13,8 @@ input, select, textarea{
 }
 label.form-label {
   width: 100%;
-  font-family: $base-font-family;
+  font-family: $header-font-family;
   color: $color-brand;
-  font-weight: 300;
   font-size: 1.4rem;
   float: left;
 }
@@ -24,7 +23,7 @@ input.form-control {
   text-align: left;
   margin-bottom: $spacing-unit / 2;
   height: 2em;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   width:100%;
   background:transparent;
   border:none;
@@ -39,7 +38,7 @@ select.form-control {
   text-align: left;
   margin-bottom: $spacing-unit / 2;
   height: 2em;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   width:100%;
   background:transparent;
   border:none;

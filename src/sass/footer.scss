@@ -1,18 +1,23 @@
 footer{
   height: 10em;
   width: 100%;
-  padding: $spacing-unit / 2 0;
+  padding: $spacing-unit 0;
   display: table;
   text-align: center;
-  
+  background: $color-brand;
+
   .footer-logo{
     height: 5em;
     width: auto;
     margin: $spacing-unit 0;
   }
+
   a.footer-link{
+    font-size: .7rem;
+    font-weight: 600;
+    color: $color-white;
     &:hover{
-      box-shadow: 0 .1em .4em - .4em $color-brand-alt;
+      box-shadow: 0 .1em .4em - .4em $color-brand;
     }
   }
 
