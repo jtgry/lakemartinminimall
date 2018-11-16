@@ -27,11 +27,11 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/furniture.md
-- content/_index.md
-- content/decor.md
-- content/gifts-apparel.md
-- content/recreation.md
-- content/visit-us.md
 - content/big-green-egg.md
+- content/_index.md
+- content/furniture.md
+- content/visit-us.md
+- content/gifts-apparel.md
+- content/decor.md
+- content/recreation.md
 - content/outdoor.md
