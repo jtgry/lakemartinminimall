@@ -1,0 +1,9 @@
+{{- if eq .Site.Params.alert true -}}
+<div class="alert fade-in-slowest">
+  <div class="container">
+    <p><b>{{ .Site.Params.alert_text }}</b></p>
+  </div>
+
+</div>
+
+{{ end }}

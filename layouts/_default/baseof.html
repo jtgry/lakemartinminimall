@@ -16,6 +16,7 @@
 
     </head>
     <body id="page">
+        {{ block "alert" . }}{{ partial "site/alert.html" . }}{{ end }}
         {{ block "navigation" . }}{{ partial "site/navigation.html" . }}{{ end }}
 
         <main class="site-main" role="main">

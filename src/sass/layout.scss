@@ -172,3 +172,17 @@
     text-align: center;
   }
 }
+
+.alert{
+  background: $color-brand;
+  position: relative; 
+  padding: $spacing-unit / 2 0;
+  p{
+    color: $color-white;
+    font-family: $base-font-family;
+    font-size: .8rem;
+    margin: 0;
+    text-align: center;
+
+  }
+}
