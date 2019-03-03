@@ -5,6 +5,7 @@
     {{ range .Paginator.Pages }}
       <div class="post">
           <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <h3 class="meta">{{ .Date.Format "Monday, Jan 2, 2006" }}</h3>
           {{ .Content }}
       </div>
     {{ end }}

@@ -3,6 +3,7 @@
   <article class="page">
     {{- range .Params.blocks -}}
       {{- if eq .template "block-image" -}}{{ partial "blocks/block-image" (dict "Params" .) }}{{- end -}}
+      {{- if eq .template "block-video" -}}{{ partial "blocks/block-video" (dict "Params" .) }}{{- end -}}
       {{- if eq .template "block-feature" -}}{{ partial "blocks/block-feature" (dict "Params" .) }}{{- end -}}
       {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
     {{- end -}}

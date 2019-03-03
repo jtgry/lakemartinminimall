@@ -1,6 +1,10 @@
 ---
 title: Home
-image: uploads/_DSC0110.jpg
+image: uploads/_DSC0670.jpg
+calltoaction: Second Grand Opening
+followup: Grand opening of the newly remodeled store, browse new inventory, hang out with great people.
+button_text: Find Out More
+button_url: /news/
 blocks:
 - template: block-feature-items
   intro: Latest Items

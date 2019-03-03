@@ -4,16 +4,30 @@
   <div class="home-header-overlay"></div>
   <div class="home-banner-content fade-in-slowest">
     <div class="vertical">
-      <div class="container">
-        <img src="/images/lakemartin.svg" class="home-banner-logo" alt="{{ .Title }}">
+      <div class="home-banner-cta">
+        <div class="container">
+          <h2>{{ .Params.calltoaction }}</h2>
+          <p>{{ .Params.followup }}</p>
+          <a href="{{.Params.button_url}}" class="button"><span>{{.Params.button_text}}</span></a>
+        </div>
+      </div>
+      <div class="home-banner-logo">
+        <img src="/images/green-egg.svg" alt="{{ .Title }}">
       </div>
     </div>
   </div>
   <div class="home-intro fade-in-up-slower">
     <div class="container-wide">
       <div class="home-intro-item">
-        <h3>Welcome</h3>
-        <a href="#block-feature-items" class="button alt small"><span>Latest Arrivals</span></a>
+        <h3>Latest News</h3>
+        {{ with .Site.GetPage "/news" }}
+          {{ range first 2 .Pages }}
+            <p><b>{{ .Title }}</b></p>
+              <small>{{ .Date.Format "Monday, Jan 2, 2006" }}</small>
+          {{ end }}
+        {{ end }}
+      <hr />
+      <p><a href="/news"><b>More News & Events</b></a></p>
       </div>
       <div class="home-intro-item">
         <h3>Store Hours</h3>
@@ -37,8 +51,9 @@
         </div>
       </div>
       <div class="home-intro-item">
-          <h3>Contact Us</h3>
-          <a href="#contact" class="button alt small"><span>Message</span></a>
+        <h3>Customer Testimonials</h3>
+        <p>Hear what our customer's are saying about Lake Martin Mini Mall</p>
+        <a href="/testimonials" class="button alt small"><span>Learn More</span></a>
       </div>
     </div>
   </div>
