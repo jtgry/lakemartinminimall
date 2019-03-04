@@ -1,6 +1,6 @@
 ---
 title: Second Grand Opening
-date: 2018-03-08 15:00:00 +0000
+date: 2019-03-08 23:00:00 +0000
 image: images/lake.jpg
 
 ---
