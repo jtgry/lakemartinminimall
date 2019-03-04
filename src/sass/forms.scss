@@ -32,6 +32,7 @@ input.form-control {
   webkit-box-shadow: none;
   box-shadow: none;
   transition: all .2s ease-in-out;
+  padding: 0;
 }
 select.form-control {
   font-family: $base-font-family;
@@ -48,6 +49,7 @@ select.form-control {
   box-shadow: none;
   box-shadow: none;
   transition: all .2s ease-in-out;
+  padding: 0;
 }
 select option{
     font-size: 1.5rem;
@@ -58,7 +60,7 @@ textarea.form-control{
   margin-bottom: $spacing-unit /2;
   height:5em;
   font-size: 140%;
-  width:99%;
+  width:100%;
   background:transparent;
   border:none;
   border-radius: 0;
