@@ -1,0 +1,16 @@
+<div class="block-list">
+  <div class="block-feature-content">
+    <div class="container">
+      <p class="intro">What We Carry</p>
+      <h2>Our Vendors</h2>
+      <hr />
+    </div>
+  {{ range .vendors }}
+    <ul>
+      {{ range . }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  </div>
+</div>

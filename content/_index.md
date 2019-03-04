@@ -38,6 +38,7 @@ blocks:
     image: uploads/DSC_0332.jpg
     button_text: Learn More
     button_url: "/gifts-apparel/"
+- template: block-list
 - template: block-image
   heading: 'Welcome! '
   content: 'Thank you for taking time to check out our site! As you will see, we are
@@ -68,6 +69,7 @@ blocks:
   button_text: Directions
   button_url: https://goo.gl/maps/zS45zKDvBHv
   image: uploads/lakemartin.jpg
+
 type: page
 
 ---
