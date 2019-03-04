@@ -27,8 +27,8 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/big-green-egg.md
 - content/_index.md
+- content/big-green-egg.md
 - content/furniture.md
 - content/visit-us.md
 - content/gifts-apparel.md
