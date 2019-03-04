@@ -9,7 +9,7 @@ sections:
   label: News
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - visit-us
 - type: directory
