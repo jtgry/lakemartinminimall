@@ -5,6 +5,14 @@ admin_path: "/update"
 webhook_url: 
 sections:
 - type: directory
+  path: content/testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+  new_doc_ext: ''
+  templates:
+  - visit-us
+- type: directory
   path: content/news
   label: News
   create: all
