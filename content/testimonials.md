@@ -6,7 +6,8 @@ blocks:
   intro: Customer Testomonials
   heading: What Our Customers Are Saying
   items:
-    - video: 'https://player.vimeo.com/video/318093849'
-    - video: 'https://player.vimeo.com/video/318093745'
+  - video: https://player.vimeo.com/video/321740905
+  - video: https://player.vimeo.com/video/318093849
+  - video: https://player.vimeo.com/video/318093745
 
 ---
