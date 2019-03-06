@@ -9,7 +9,7 @@ sections:
   label: Testimonials
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: '20190306012210'
   templates:
   - visit-us
 - type: directory
