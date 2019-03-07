@@ -47,6 +47,9 @@
       @media (max-width: $tablet) {
         @include stack();
         margin-bottom: $spacing-unit / 2; 
+        right: -60vh;
+      }
+      @media (max-width: $phone) {
         right: -20vh;
       }
       img{
