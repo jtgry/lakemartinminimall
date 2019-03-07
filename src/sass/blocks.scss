@@ -11,13 +11,18 @@
   box-shadow: $box-shadow-alt;
   height: 100%;
   position: relative;
+  background: $color-transparent;
+  overflow: hidden;
+  border-radius: .3em;
   @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
     margin-bottom: $spacing-unit / 2; 
   }
   img{
-    border-radius: .3em;
+    min-width: 101%;
+    height: auto;
+    position: relative;
   }
 }
 .block-image-overlay{
