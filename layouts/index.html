@@ -3,17 +3,15 @@
 <section class="home-banner fade-in" style="background-image:url({{ $image.RelPermalink }});">
   <div class="home-header-overlay"></div>
   <div class="home-banner-content fade-in-slowest">
-    <div class="vertical">
-      <div class="home-banner-cta">
-        <div class="container">
-          <h2>{{ .Params.calltoaction }}</h2>
-          <p>{{ .Params.followup }}</p>
-          <a href="{{.Params.button_url}}" class="button"><span>{{.Params.button_text}}</span></a>
-        </div>
+    <div class="home-banner-cta">
+      <div class="container">
+        <h2>{{ .Params.calltoaction }}</h2>
+        <p>{{ .Params.followup }}</p>
+        <a href="{{.Params.button_url}}" class="button"><span>{{.Params.button_text}}</span></a>
       </div>
-      <div class="home-banner-logo">
-        <img src="/images/green-egg.svg" alt="{{ .Title }}">
-      </div>
+    </div>
+    <div class="home-banner-logo">
+      <img src="/images/green-egg-alt.svg" alt="{{ .Title }}">
     </div>
   </div>
   <div class="home-intro fade-in-up-slower">

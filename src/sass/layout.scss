@@ -33,37 +33,39 @@
   }
   .home-banner-content{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     margin: 0 auto;
-    display: table;
-    border-radius: .2em;
+    padding-top: 20vh;
     position: relative;
     overflow: hidden;
     .home-banner-logo{
       overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: -20vh;
       @include span(1/2);
       @media (max-width: $tablet) {
         @include stack();
         margin-bottom: $spacing-unit / 2; 
+        right: -20vh;
       }
       img{
-      height: 160vh;
-      position: absolute;
-      top: 0;
-      right: -2vh;
-
+        height: 120vh;
       @media (max-width: $tablet) {
-        height: 40vh;
-      }
+        height: 120vh;
+        opacity: .3;
+        }
       }
     }
     .home-banner-cta{
-      margin-top: 10vh;
       p{
       font-family: $base-font-family;
       }
       @include span(1/2);
       @media (max-width: $tablet) {
+        h2{
+          font-size: 3rem;
+        }
         @include stack();
         margin-bottom: $spacing-unit / 2; 
       }

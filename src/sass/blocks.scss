@@ -235,7 +235,7 @@
 }
 
 .block-video{
-  @include column(1/2);
+  @include column(1/2, $cycle: 3);
 
   overflow: hidden;
   padding-top: 40%;
@@ -250,7 +250,13 @@
    box-shadow: $box-shadow;
 
   }
+
 }
+  .block-video:first-of-type{
+  @include stack();
+  padding-top: 60%;
+  margin-bottom: -5%;
+  }
 .block-gallery-item{
   img{
     height: 20vh;
