@@ -11,6 +11,9 @@ fields:
   name: image
   label: Image
 - type: text
+  name: calltoaction
+  label: Call To Action
+- type: text
   name: followup
   label: Follow Up
 - type: text
@@ -27,6 +30,3 @@ fields:
   - block-image
   - block-map
   - block-feature
-- type: text
-  name: calltoaction
-  label: Call To Action
