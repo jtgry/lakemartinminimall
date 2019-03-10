@@ -10,9 +10,6 @@ fields:
 - type: file
   name: image
   label: Image
-- type: boolean
-  name: calltoaction
-  label: Call To Action
 - type: text
   name: followup
   label: Follow Up
@@ -30,3 +27,6 @@ fields:
   - block-image
   - block-map
   - block-feature
+- type: text
+  name: calltoaction
+  label: Call To Action
