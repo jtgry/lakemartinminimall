@@ -30,3 +30,5 @@ fields:
   - block-image
   - block-map
   - block-feature
+pages:
+- content/_index.md

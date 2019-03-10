@@ -1,10 +1,10 @@
 ---
 title: Home
 image: uploads/_DSC0670.jpg
-calltoaction: Second Grand Opening
-followup: Grand opening of the newly remodeled store, browse new inventory, hang out with great people.
-button_text: Find Out More
-button_url: /news/
+calltoaction: Your Big Green Egg is Waiting...
+followup: Schedule your Big Green Egg test drive today.
+button_text: Schedule Today
+button_url: "/schedule-biggreenegg"
 blocks:
 - template: block-feature-items
   intro: Latest Items
@@ -69,7 +69,7 @@ blocks:
   button_text: Directions
   button_url: https://goo.gl/maps/zS45zKDvBHv
   image: uploads/lakemartin.jpg
-
 type: page
+date: ''
 
 ---
