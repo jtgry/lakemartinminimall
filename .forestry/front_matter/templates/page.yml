@@ -10,6 +10,11 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
 - name: image
   label: Image
   type: file
@@ -23,11 +28,6 @@ fields:
   - block-image
   - block-feature
   - block-feature-items
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
 pages:
 - content/_index.md
 - content/outdoor.md
