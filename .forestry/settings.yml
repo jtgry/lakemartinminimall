@@ -20,7 +20,6 @@ sections:
 - type: document
   path: data/vendors.yml
   label: Vendors
-  match: "**/*"
 - type: directory
   path: content/journal
   label: Journal
