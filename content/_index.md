@@ -5,7 +5,6 @@ calltoaction: Your Big Green Egg is Waiting...
 followup: Schedule your Big Green Egg test drive today.
 button_text: Schedule Today
 button_url: "/schedule-biggreenegg"
-<<<<<<< HEAD
 hours:
   - item: Mon - Tue
     hours: Closed
@@ -15,8 +14,6 @@ hours:
     hours: 9:00 AM - 4:00 PM
   - item: Sunday
     hours: 1:00 PM - 5:00 PM
-=======
->>>>>>> 41a891b6d1d40a3aad2ddafcc9ace7e4cc3584f5
 blocks:
 - template: block-feature-items
   intro: Latest Items
