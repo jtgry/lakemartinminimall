@@ -1,34 +1,73 @@
 ---
 label: Home
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: title
-  label: Title
-  config:
-    required: false
+  label: title
 - type: file
   name: image
-  label: Image
+  label: image
 - type: text
   name: calltoaction
-  label: Call To Action
+  label: calltoaction
 - type: text
   name: followup
-  label: Follow Up
+  label: followup
 - type: text
   name: button_text
-  label: Button Text
+  label: button_text
 - type: text
-  label: Button URL
   name: button_url
-- type: blocks
+  label: button_url
+- type: field_group_list
+  name: hours
+  label: hours
+  fields:
+  - type: text
+    name: item
+    label: item
+  - type: text
+    name: hours
+    label: hours
+- type: field_group_list
   name: blocks
-  label: Blocks
-  template_types:
-  - block-feature-items
-  - block-image
-  - block-map
-  - block-feature
-pages:
-- content/_index.md
+  label: blocks
+  fields:
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: intro
+    label: intro
+  - type: text
+    name: heading
+    label: heading
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: text
+      name: template
+      label: template
+    - type: text
+      name: name
+      label: name
+    - type: textarea
+      name: content
+      label: content
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_url
+      label: button_url
+- type: text
+  name: type
+  label: type
+- type: text
+  name: date
+  label: date

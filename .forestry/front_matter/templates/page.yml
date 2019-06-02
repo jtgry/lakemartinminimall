@@ -29,16 +29,7 @@ fields:
   - block-feature
   - block-feature-items
 pages:
-<<<<<<< HEAD
-- content/big-green-egg.md
-- content/furniture.md
-- content/visit-us.md
-- content/gifts-apparel.md
-- content/decor.md
-- content/recreation.md
-=======
 - content/_index.md
->>>>>>> b50f2941f73bd69ae09c660872ea9ebb961e6ed6
 - content/outdoor.md
 - content/recreation.md
 - content/decor.md
