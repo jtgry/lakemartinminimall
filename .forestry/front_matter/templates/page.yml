@@ -10,6 +10,11 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
 - name: image
   label: Image
   type: file
@@ -23,16 +28,21 @@ fields:
   - block-image
   - block-feature
   - block-feature-items
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
 pages:
+<<<<<<< HEAD
 - content/big-green-egg.md
 - content/furniture.md
 - content/visit-us.md
 - content/gifts-apparel.md
 - content/decor.md
 - content/recreation.md
+=======
+- content/_index.md
+>>>>>>> b50f2941f73bd69ae09c660872ea9ebb961e6ed6
 - content/outdoor.md
+- content/recreation.md
+- content/decor.md
+- content/gifts-apparel.md
+- content/visit-us.md
+- content/furniture.md
+- content/big-green-egg.md
