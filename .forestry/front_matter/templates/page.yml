@@ -1,7 +1,6 @@
 ---
 label: page
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -31,10 +30,10 @@ fields:
   default: ''
 pages:
 - content/_index.md
-- content/big-green-egg.md
-- content/furniture.md
-- content/visit-us.md
-- content/gifts-apparel.md
-- content/decor.md
-- content/recreation.md
 - content/outdoor.md
+- content/recreation.md
+- content/decor.md
+- content/gifts-apparel.md
+- content/visit-us.md
+- content/furniture.md
+- content/big-green-egg.md
