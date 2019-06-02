@@ -1,0 +1,34 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: false
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: calltoaction
+  label: Call To Action
+- type: text
+  name: followup
+  label: Follow Up
+- type: text
+  name: button_text
+  label: Button Text
+- type: text
+  label: Button URL
+  name: button_url
+- type: blocks
+  name: blocks
+  label: Blocks
+  template_types:
+  - block-feature-items
+  - block-image
+  - block-map
+  - block-feature
+pages:
+- content/_index.md

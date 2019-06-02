@@ -73,7 +73,7 @@ blocks:
   button_text: Directions
   button_url: https://goo.gl/maps/zS45zKDvBHv
   image: uploads/lakemartin.jpg
-
 type: page
+date: ''
 
 ---
