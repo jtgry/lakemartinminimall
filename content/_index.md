@@ -6,9 +6,7 @@ followup: Schedule your Big Green Egg test drive today.
 button_text: Schedule Today
 button_url: "/schedule-biggreenegg"
 hours:
-- item: Mon - Tue
-  hours: Closed
-- item: Wed - Fri
+- item: Mon - Fri
   hours: 10:00 AM - 5:00 PM
 - item: Saturday
   hours: 9:00 AM - 4:00 PM
