@@ -65,3 +65,5 @@ fields:
     - type: text
       name: button_url
       label: button_url
+pages:
+- content/_index.md

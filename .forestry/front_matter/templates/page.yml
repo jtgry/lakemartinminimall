@@ -29,7 +29,6 @@ fields:
   - block-feature
   - block-feature-items
 pages:
-- content/_index.md
 - content/outdoor.md
 - content/recreation.md
 - content/decor.md

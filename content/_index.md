@@ -6,14 +6,14 @@ followup: Schedule your Big Green Egg test drive today.
 button_text: Schedule Today
 button_url: "/schedule-biggreenegg"
 hours:
-  - item: Mon - Tue
-    hours: Closed
-  - item: Wed - Fri
-    hours: 10:00 AM - 5:00 PM
-  - item: Saturday
-    hours: 9:00 AM - 4:00 PM
-  - item: Sunday
-    hours: 1:00 PM - 5:00 PM
+- item: Mon - Tue
+  hours: Closed
+- item: Wed - Fri
+  hours: 10:00 AM - 5:00 PM
+- item: Saturday
+  hours: 9:00 AM - 4:00 PM
+- item: Sunday
+  hours: 1:00 PM - 5:00 PM
 blocks:
 - template: block-feature-items
   intro: Latest Items
@@ -42,7 +42,11 @@ blocks:
     image: uploads/DSC_0332.jpg
     button_text: Learn More
     button_url: "/gifts-apparel/"
+  content: ''
 - template: block-list
+  intro: ''
+  heading: ''
+  items: []
 - template: block-image
   heading: 'Welcome! '
   content: 'Thank you for taking time to check out our site! As you will see, we are
@@ -55,6 +59,8 @@ blocks:
   image_alignment: right
   button_text: Learn More
   button_url: "/furniture"
+  intro: ''
+  items: []
 - template: block-image
   heading: About Us
   content: Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin
@@ -67,12 +73,16 @@ blocks:
   image_alignment: left
   button_text: Learn More
   button_url: "/big-green-egg"
+  intro: ''
+  items: []
 - template: block-map
   intro: Come And Visit
   heading: Directions
   button_text: Directions
   button_url: https://goo.gl/maps/zS45zKDvBHv
   image: uploads/lakemartin.jpg
+  header: ''
+  items: []
 type: page
 date: ''
 
