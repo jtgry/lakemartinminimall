@@ -65,9 +65,3 @@ fields:
     - type: text
       name: button_url
       label: button_url
-- type: text
-  name: type
-  label: type
-- type: text
-  name: date
-  label: date
