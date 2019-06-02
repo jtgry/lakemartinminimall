@@ -1,1 +1,3 @@
-<link rel="stylesheet" href="{{ "css/app.css" | absURL }}">
+{{ $base := resources.Get "sass/app.scss" | toCSS | postCSS (dict "config" "postcss.config.js") }}
+
+<link rel="stylesheet" href="{{ $base.Permalink }}" />

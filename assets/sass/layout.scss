@@ -1,0 +1,239 @@
+.site-main{
+  width: 100%;
+  margin: auto;
+
+}
+.home-banner{
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @media (max-width: $tablet) {
+    background-attachment: scroll;
+    background-position: bottom right;
+
+  }
+  .home-header-overlay{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    background: $color-white;
+    background: linear-gradient(160deg, $color-white 80%, $color-white 100%); 
+    opacity: .92;
+    @media (max-width: $tablet) {
+      background: linear-gradient(160deg, $color-white 80%, $color-white 100%); 
+      opacity: .9;
+      height: 150vh;
+    }
+  }
+  .home-banner-content{
+    width: 100%;
+    height: 60vh;
+    margin: 0 auto;
+    padding-top: 30vh;
+    position: relative;
+    overflow: hidden;
+    .home-banner-logo{
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: -20vh;
+      @include span(1/2);
+      @media (max-width: $tablet) {
+        @include stack();
+        margin-bottom: $spacing-unit / 2; 
+        right: -60vh;
+      }
+      @media (max-width: $phone) {
+        right: -20vh;
+      }
+      img{
+        height: 120vh;
+      @media (max-width: $tablet) {
+        height: 120vh;
+        opacity: .3;
+        }
+      }
+    }
+    .home-banner-cta{
+      p{
+      font-family: $base-font-family;
+      }
+      @include span(1/2);
+      @media (max-width: $tablet) {
+        h2{
+          font-size: 3rem;
+        }
+        @include stack();
+        margin-bottom: $spacing-unit / 2; 
+      }
+    }
+  }
+
+  .home-intro{
+    background: $color-brand;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: -2em;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity: .95;
+    @media (max-width: $tablet) {
+      height: auto;
+    }
+    hr{
+      margin-bottom: 0;
+      width: 3em;
+      height: .2em;
+      margin: 1em auto;
+    }
+    p{
+     color: $color-white;
+     font-family: $base-font-family;
+     margin-bottom: 0;
+    }
+    small{
+      color: $color-white;
+      font-weight: bold;
+      letter-spacing: .3em;
+    }
+    a{
+      font-size: 1rem;
+      color: $color-white;
+    }
+    h3{
+      font-size: 1.8rem;
+      color: $color-white;
+      margin: 0;
+      margin-bottom: $spacing-unit / 4;
+    }
+    .home-intro-item{
+      @include span(1/3);
+      padding: $spacing-unit 0;
+      text-align: center;
+      @media (max-width: $tablet) {
+        @include stack();
+        margin-bottom: $spacing-unit / 2;
+      }
+      ul{
+        margin: 0;
+        @include span(1/2, $cycle: 2);
+        margin-bottom: $spacing-unit / 4;
+      }
+      li{
+        list-style: none; 
+        margin: 0;
+        color: $color-white;
+        font-size: .8rem;
+        
+      }
+      b{
+        text-transform: uppercase;
+        letter-spacing: .1em;
+      }
+      .button{
+        margin: 0 auto;
+        margin-top: $spacing-unit / 3;
+        text-align: center
+      
+      }
+    }
+  }
+} 
+
+.page{
+  margin: $spacing-unit;
+  @media (max-width: $tablet) {
+    margin: $spacing-unit $spacing-unit / 4;
+  }
+}
+.page-header{
+  height: 70vh;
+  min-height: 70vh;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @media (max-width: $tablet) {
+    height: 70vh;
+    min-height: 70vh;
+    background-attachment: scroll;
+  }
+  .page-header-overlay{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    background: $color-white;
+    background: linear-gradient(200deg, $color-white 30%, $color-white 100%); 
+    opacity: .7
+    
+  }
+  .page-header-content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    .page-title{
+      font-size: 5rem;
+      font-family: $header-font-family;
+      margin: 0;
+
+      @media (max-width: $tablet) {
+        font-size: 3rem;
+      }
+    }
+  }
+  .page-header-logo{
+    height: auto;
+    max-height: 40vh;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5vh;
+    
+  }
+
+} 
+
+.post{
+  h2{
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+  }
+  h3{
+    font-size: 1.2rem;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    font-family: $base-font-family;
+    text-align: center;
+    font-weight: 700;
+    color: $color-grey;
+    margin-bottom: $spacing-unit / 2;
+
+  }
+}
+
+.alert{
+  background: $color-brand;
+  position: relative; 
+  padding: $spacing-unit / 2 0;
+  p{
+    color: $color-white;
+    font-family: $base-font-family;
+    font-size: .8rem;
+    margin: 0;
+    text-align: center;
+
+  }
+}

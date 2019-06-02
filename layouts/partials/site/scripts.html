@@ -1,1 +1,9 @@
-<script src="/js/app.js"></script>
+{{ $s := resources.Get "js/app.js" | minify }}
+
+{{ $insta := resources.Get "js/vendor/instafeed.min.js" | minify }}
+
+{{ $head := resources.Get "js/vendor/headroom.min.js" | minify }}
+
+<script src="{{ $head.Permalink }}"></script>
+<script src="{{ $insta.Permalink }}"></script>
+<script src="{{ $s.Permalink }}"></script>

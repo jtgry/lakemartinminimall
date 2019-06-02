@@ -1,7 +1,7 @@
 <section class="block-section">
   <div class="vertical">
     {{- if .Params.image -}}
-    {{ $image := (resources.Get .Params.image).Fill "800x1000" }}
+    {{ $image := (resources.Get .Params.image).Fill "800x600" }}
     <div class="block-image {{ .Params.image_alignment }}">
     <img src="{{ $image.RelPermalink }}" alt="{{ .Params.heading }}">
     <div class="block-image-overlay"></div>

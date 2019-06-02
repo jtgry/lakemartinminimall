@@ -1,19 +1,23 @@
 ---
 title: Home
 image: uploads/_DSC0670.jpg
-calltoaction: Second Grand Opening
-followup: Grand opening of the newly remodeled store, browse new inventory, hang out with great people.
-button_text: Find Out More
-button_url: /news/
+calltoaction: Your Big Green Egg is Waiting...
+followup: Schedule your Big Green Egg test drive today.
+button_text: Schedule Today
+button_url: "/schedule-biggreenegg"
+hours:
+  - item: Mon - Tue
+    hours: Closed
+  - item: Wed - Fri
+    hours: 10:00 AM - 5:00 PM
+  - item: Saturday
+    hours: 9:00 AM - 4:00 PM
+  - item: Sunday
+    hours: 1:00 PM - 5:00 PM
 blocks:
 - template: block-feature-items
   intro: Latest Items
   heading: Our Store
-  content: 
-  image: 
-  image_alignment: 
-  button_text: 
-  button_url: 
   items:
   - template: block-item
     name: Big Green Egg

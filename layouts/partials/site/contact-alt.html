@@ -1,11 +1,13 @@
 <section id="contact" class="block-feature-alt">
   <div class="block-feature-content">
-    <h2 class="block-title center-text">Schedule Your Big Green Egg</h2>
-    <hr/>
+    <div class="container">
+      <h4 class="center-text">{{ .Params.subheader }}</h4>
+      {{ .Content }}
+    </div>
   </div>
   <div class="block-text">
     <div class="container">
-      <form method="post" action="/thanks/" name="contact" netlify-honeypot="bot-field" data-netlify="true">
+      <form method="post" action="/thanks/" name="test-drive" netlify-honeypot="bot-field" data-netlify="true">
         <label class="hidden">Don’t fill this out: <input name="bot-field"></label>
         <div class="form-group">
           <label class="form-label">What's your name?</label>
