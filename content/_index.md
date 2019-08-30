@@ -2,7 +2,7 @@
 title: Home
 image: uploads/_DSC0670.jpg
 calltoaction: 30 Day Money Back Guarantee
-followup: on most grills and furniture, restrictions apply, ask for details.
+followup: On most grills and furniture, restrictions apply, ask for details.
 button_text: Learn More
 button_url: "/contact"
 hours:
