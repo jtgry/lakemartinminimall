@@ -1,12 +1,12 @@
 ---
 title: Home
 image: uploads/_DSC0670.jpg
-calltoaction: Your Big Green Egg is Waiting...
-followup: Schedule your Big Green Egg test drive today.
-button_text: Schedule Today
-button_url: "/schedule-biggreenegg"
+calltoaction: 30 Day Money Back Guarantee
+followup: on most grills and furniture, restrictions apply, ask for details.
+button_text: Learn More
+button_url: "/contact"
 hours:
-- item: Mon - Fri
+- item: Wed - Fri
   hours: 10:00 AM - 5:00 PM
 - item: Saturday
   hours: 9:00 AM - 4:00 PM

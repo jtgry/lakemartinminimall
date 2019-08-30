@@ -29,11 +29,11 @@ fields:
   - block-feature
   - block-feature-items
 pages:
-- content/outdoor.md
-- content/recreation.md
 - content/schedule-biggreenegg.md
-- content/decor.md
-- content/gifts-apparel.md
-- content/visit-us.md
+- content/outdoor.md
 - content/furniture.md
+- content/decor.md
 - content/big-green-egg.md
+- content/visit-us.md
+- content/gifts-apparel.md
+- content/recreation.md
