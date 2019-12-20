@@ -1,10 +1,10 @@
 ---
 title: Home
 image: uploads/_DSC0670.jpg
-calltoaction: 30 Day Money Back Guarantee
-followup: On most grills and furniture, restrictions apply, ask for details.
-button_text: Learn More
-button_url: "/contact"
+calltoaction: Shop With Us Online!!!
+followup: A select number items available here.
+button_text: Shop Now
+button_url: shoplakemartin.com
 hours:
 - item: Wed - Fri
   hours: 10:00 AM - 5:00 PM
