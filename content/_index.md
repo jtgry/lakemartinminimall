@@ -4,7 +4,7 @@ image: uploads/_DSC0670.jpg
 calltoaction: Shop With Us Online!!!
 followup: A select number of our items available online for your shopping convenience.
 button_text: Shop Now
-button_url: shoplakemartin.com
+button_url: https://shoplakemartin.com
 hours:
 - item: Wed - Fri
   hours: 10:00 AM - 5:00 PM
