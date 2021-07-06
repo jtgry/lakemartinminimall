@@ -6,7 +6,7 @@ followup: A select number of our items available online for your shopping conven
 button_text: Shop Now
 button_url: https://shoplakemartin.com
 hours:
-- item: Wed - Fri
+- item: Mon - Fri
   hours: 10:00 AM - 5:00 PM
 - item: Saturday
   hours: 9:00 AM - 4:00 PM
