@@ -1,10 +1,10 @@
 ---
 title: Home
 image: uploads/_DSC0670.jpg
-calltoaction: Shop With Us Online!!!
-followup: A select number of our items available online for your shopping convenience.
-button_text: Shop Now
-button_url: https://shoplakemartin.com
+calltoaction: Your Big Green Egg is Waiting...
+followup: ''
+button_text: Contact Us
+button_url: "/contact"
 hours:
 - item: Mon - Fri
   hours: 10:00 AM - 5:00 PM
