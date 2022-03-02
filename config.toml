@@ -7,60 +7,53 @@ title = "Lake Martin Mini Mall"
 [imaging]
 anchor = "center"
 quality = 90
-
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
 [[menu.main]]
-name = "Furniture"
-url = "/furniture/"
-weight = 4
+name = "Shop Online "
+url = "https://lake-martin-mini-mall.myshopify.com"
+weight = 7
 [[menu.main]]
-name = "Big Green Egg"
-url = "/big-green-egg/"
-weight = 2
-[[menu.main]]
-name = "Decor"
-url = "/decor/"
-weight = 6
-[[menu.main]]
-name = "Outdoor"
-url = "/outdoor"
-weight = 3
+name = "Visit Us"
+url = "/visit-us/"
+weight = 1
 [[menu.main]]
 name = "Gifts & Apparel"
 url = "/gifts-apparel"
 weight = 5
 [[menu.main]]
-name = "Visit Us"
-url = "/visit-us/"
-weight = 1
-
-# add redirects/headers
-[outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-
-# remove .{ext} from text/netlify
-[mediaTypes."text/netlify"]
-suffixes = [""]
-delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
+name = "Outdoor"
+url = "/outdoor"
+weight = 3
+[[menu.main]]
+name = "Decor"
+url = "/decor/"
+weight = 6
+[[menu.main]]
+name = "Big Green Egg"
+url = "/big-green-egg/"
+weight = 2
+[[menu.main]]
+name = "Furniture"
+url = "/furniture/"
+weight = 4
 [outputFormats.HEADERS]
-mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
+mediatype = "text/netlify"
 notAlternative = true
-
-
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 [params]
+alert = false
+alert_text = "Holiday Hours: 12/22-12/23 Normal Hours, 12/24 Christmas Eve 9am-1pm, 12/25 Christmas Day - CLOSED, 12/26-12/30 Normal Hours, 12/31-1/11 - CLOSED to spend time with family and go to market. We will reopen Saturday 1/12."
 description = "Family owned and operated by Jason & Scott Lett as of 2013, Lake Martin Mini Mall is conveniently located on Hwy 63, just north of Eclectic, AL. We serve the Lake Martin area, but can ship anywhere in the U.S.  With over an acre of water fountains, statuary, planters, and more, we are able to offer a wide selection of concrete pottery."
 facebook = ""
 instagram = ""
 pinterest = ""
-alert = false
-alert_text = "Holiday Hours: 12/22-12/23 Normal Hours, 12/24 Christmas Eve 9am-1pm, 12/25 Christmas Day - CLOSED, 12/26-12/30 Normal Hours, 12/31-1/11 - CLOSED to spend time with family and go to market. We will reopen Saturday 1/12."
