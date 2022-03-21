@@ -46,14 +46,6 @@ blocks:
   heading: ''
   items: []
 - template: block-image
-  image: uploads/_DSC0545.jpg
-  heading: Big Green Egg
-  button_text: 'Learn More '
-  button_url: https://lakemartinminimall.com/big-green-egg/
-  content: Widely acclaimed as the original American-designed ceramic cooker, the
-    Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-  image_alignment: ''
-- template: block-image
   heading: 'Welcome! '
   content: 'Thank you for taking time to check out our site! As you will see, we are
     passionate about lake living and providing our customers with the highest quality
