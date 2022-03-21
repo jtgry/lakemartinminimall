@@ -1,10 +1,10 @@
 ---
 title: Home
 image: uploads/_DSC0670.jpg
-calltoaction: Your Big Green Egg is Waiting...
+calltoaction: 'Shop With Us Online! '
 followup: ''
-button_text: Contact Us
-button_url: "/contact"
+button_text: 'Go to Store '
+button_url: https://shoplakemartin.com
 hours:
 - item: Wed - Fri
   hours: 10:00 AM - 5:00 PM
@@ -17,13 +17,6 @@ blocks:
   intro: Latest Items
   heading: Our Store
   items:
-  - template: block-item
-    name: Big Green Egg
-    content: Widely acclaimed as the original American-designed ceramic cooker, the
-      Big Green Egg® was derived from an ancient clay cooking device known as a “kamado”.
-    image: uploads/_DSC0556.jpg
-    button_text: Learn More
-    button_url: "/big-green-egg/"
   - template: block-item
     name: Outdoor Furniture
     content: 'The area''s largest selection of composite outdoor furniture! Breezesta
