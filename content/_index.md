@@ -11,7 +11,7 @@ hours:
 - item: Saturday
   hours: 9:00 AM - 4:00 PM
 - item: Sunday
-  hours: 1:00 PM - 5:00 PM
+  hours: 'Closed '
 blocks:
 - template: block-feature-items
   intro: Latest Items
