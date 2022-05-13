@@ -4,11 +4,10 @@
 
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
 
-<meta property="og:title" content="{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }} | Eclectic, Lake Martin, Alex City, Auburn, Montgomery, Alabama">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:image" content="/images/website.jpg">
-<meta property="og:url" content="{{ .URL }}">
+{{ template "_internal/opengraph.html" . }}
+{{ with .Site.Params.image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
+{{ with .Site.Params.title }}<meta property="og:title" content="{{ . }}" />{{ end }}
 
 {{ template "_internal/google_analytics.html" . }}
 
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}

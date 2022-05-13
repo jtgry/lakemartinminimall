@@ -1,3 +1,3 @@
-{{ $base := resources.Get "sass/app.scss" | toCSS | postCSS (dict "config" "postcss.config.js") }}
+{{ $base := resources.Get "sass/app.scss" | toCSS | fingerprint }}
 
 <link rel="stylesheet" href="{{ $base.Permalink }}" />
