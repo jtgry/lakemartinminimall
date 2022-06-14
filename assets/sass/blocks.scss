@@ -1,3 +1,84 @@
+.block-container{
+  width: 96%;
+  margin: $spacing-unit 2%;
+  display: block;
+  position: relative;
+  padding: $spacing-unit 0;
+  @media (min-width: $tablet) {
+    margin: $spacing-unit auto;
+    max-width: $content-wide;
+  }
+  &.block-container-wide{
+    width: 100%;
+    margin: 0;
+    margin-bottom: $spacing-unit * 2;
+    max-width: none;
+  }
+  
+}
+.block-header{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: $spacing-unit;
+  h2{
+    color: $color-grey;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .7rem;
+    font-family: $alt-font-family;
+    font-weight: 700;
+    @media(min-width: $laptop){
+      margin-bottom: $spacing-unit / 2;
+    }
+  }
+  h3{
+    line-height: 1.2;
+    font-size: 3rem;
+    @media(min-width: $laptop){
+      font-size: 3.5rem;
+    }
+    @media(min-width: $laptop){
+      font-size: 4rem;
+      margin-bottom: $spacing-unit;
+    }
+  }
+  @media(min-width: $laptop){
+    p{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}
+
+.flex-wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  .flex-item{
+    flex-basis: 20%;
+    margin: $spacing-unit / 2;
+    @media(min-width: $laptop){
+      flex-basis: 15%;
+      margin: $spacing-unit;
+    }
+    img{
+      max-height: 80px;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  }
+}
+
+//Old
+
+
 
 .block-section{
   display: table;
@@ -8,21 +89,21 @@
   }
 }
 .block-image{
-  box-shadow: $box-shadow-alt;
   height: 100%;
   position: relative;
   background: $color-transparent;
-  overflow: hidden;
-  border-radius: .3em;
+
   @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
     margin-bottom: $spacing-unit / 2; 
   }
   img{
-    min-width: 101%;
-    height: auto;
-    position: relative;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    border-radius: .3em;
+    box-shadow: $box-shadow-alt;
   }
 }
 .block-image-overlay{

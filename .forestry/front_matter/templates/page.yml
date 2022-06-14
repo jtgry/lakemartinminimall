@@ -28,6 +28,7 @@ fields:
   - block-image
   - block-feature
   - block-feature-items
+  - block-gallery
 pages:
 - content/big-green-egg.md
 - content/decor.md

@@ -6,6 +6,7 @@
       {{- if eq .template "block-video" -}}{{ partial "blocks/block-video" (dict "Params" .) }}{{- end -}}
       {{- if eq .template "block-feature" -}}{{ partial "blocks/block-feature" (dict "Params" .) }}{{- end -}}
       {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
+      {{- if eq .template "block-gallery" -}}{{ partial "blocks/block-gallery" (dict "Params" .) }}{{- end -}}
     {{- end -}}
     <div class="container">
       {{ .Content }}

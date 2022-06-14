@@ -1,0 +1,17 @@
+---
+label: block-gallery
+hide_body: false
+is_partial: true
+display_field: heading
+fields:
+- type: text
+  name: heading
+  label: Heading
+  config:
+    required: false
+- type: textarea
+  name: content
+  label: Content
+- type: image_gallery
+  name: gallery
+  label: Gallery

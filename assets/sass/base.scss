@@ -88,9 +88,11 @@ li,ol,td,th{
 /**
  * Images
  */
-img {
-    max-width: 100%;
-    vertical-align: middle;
+img{
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: $spacing-unit / 2;
+  color: $color-transparent;
 }
 /**
  * Figures

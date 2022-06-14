@@ -124,10 +124,11 @@ $height-top: 1000;
 
 // Width of the content area
 $content-width:    740px;
-$phone:            500px;
-$tablet:           1000px;
-$laptop:           1400px;
-$desktop:          1600px;
+$content-wide:     1200px;
+$phone:            400px;
+$tablet:           700px;
+$laptop:           1000px;
+$desktop:          1400px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -142,6 +143,7 @@ $desktop:          1600px;
 "base",
 "layout",
 "blocks",
+"blocks/block-gallery",
 "navigation",
 "buttons",
 "footer",

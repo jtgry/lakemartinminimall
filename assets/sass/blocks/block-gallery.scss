@@ -1,0 +1,39 @@
+.block-gallery{
+  width: 100%;
+  padding: $spacing-unit / 2 0;
+  .gutter-sizer { 
+    width: 2.042%; 
+    @media(min-width: $laptop) {
+      width: 1%; 
+    }
+  }
+  .masonry-sizer,
+  .masonry-item{
+    width: 49%;
+    border: none;
+    @media(min-width: $tablet) {
+      width: 49%;
+    }
+    @media(min-width: $laptop) {
+      width: 32.67%;
+    }
+  }
+  .masonry-item{
+    float: left;
+    margin-bottom: 2%;
+    @media(min-width: $tablet) {
+      margin-bottom: 2%;
+    }
+    @media(min-width: $laptop) {
+      margin-bottom: 1%;
+    }
+
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    order-radius: .3em;
+    box-shadow: $box-shadow-alt;
+  }
+}

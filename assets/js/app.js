@@ -13,17 +13,6 @@ function removeClass(ele,cls) {
   }
 }   
 
-var feed = new Instafeed({
-  get: 'user',
-  userId: '2940092438',
-  clientId: 'ca64abfc40b7478493927944df0e41d4',
-  accessToken: '2940092438.1677ed0.d694dd0aaa4349bba06edea174258632',
-  template: '<a class="block-instagram" style="background-image: url({{image}});" href="{{link}}"></a>',
-  sortBy: 'most-recent',
-  limit: '8',
-  resolution: 'standard_resolution'
-});
-feed.run();
 
 window.onload = function () { 
   document.getElementById('page').className = "load";
@@ -74,3 +63,20 @@ var headroom  = new Headroom(myElement);
 // initialise
 headroom.init(); 
 
+
+// Lazy Load Images
+imagesLoaded( document.querySelector('#page'), function( instance ) {
+  console.log('📷 All images are loaded');
+
+  var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazyload",
+    load_delay: 300
+  });
+});
+
+//Baguette Box
+baguetteBox.run('.block-gallery', {
+  // Custom options
+  animation: 'fadeIn',
+  preload: 3
+});

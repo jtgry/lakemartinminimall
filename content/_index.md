@@ -45,6 +45,15 @@ blocks:
   intro: ''
   heading: ''
   items: []
+- template: block-gallery
+  gallery:
+  - "uploads/DSC_0421.jpg"
+  - "uploads/DSC_0421.jpg"
+  - "uploads/DSC_0421.jpg"
+  - "uploads/DSC_0421.jpg"
+  - "uploads/DSC_0421.jpg"
+  - "uploads/DSC_0421.jpg"
+  - "uploads/DSC_0421.jpg"
 - template: block-image
   heading: 'Welcome! '
   content: 'Thank you for taking time to check out our site! As you will see, we are

@@ -63,6 +63,7 @@
 {{- if eq .template "block-feature" -}}{{ partial "blocks/block-feature" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-map" -}}{{ partial "blocks/block-map" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-gallery" -}}{{ partial "blocks/block-gallery" (dict "Params" .) }}{{- end -}}
 {{- end -}}
 {{ block "instafeed" . }}{{ partial "site/instafeed.html" . }}{{ end }}
 {{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}

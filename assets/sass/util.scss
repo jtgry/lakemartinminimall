@@ -1,4 +1,12 @@
+.lazyload{
+  opacity: 1;
+  transition: opacity 1s ease-out;
 
+}
+.lazyload:not(.loaded) {
+  opacity: .7;
+
+}
 .hidden{
   display: none;
   z-index: -1;
