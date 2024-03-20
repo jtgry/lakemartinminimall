@@ -4,7 +4,7 @@ paths:
   includes: layouts
   layouts: layouts
   static: static
-  uploads: static/uploads
+  uploads: assets/uploads
   source: ''
   archetypes: archetypes
   assets: assets
@@ -43,4 +43,5 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+data_config: {}
 timezone: Etc/UTC
